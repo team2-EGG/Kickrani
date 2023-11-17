@@ -37,7 +37,7 @@ public class PlayerDead : MonoBehaviour
             }
         }
         
-        if (Input.GetKeyDown(KeyCode.Space) && ! isRotating) // 다시 원 위치
+        if (Input.GetKeyDown(KeyCode.Q) && ! isRotating) // Q키 누르면 다시 원 위치
         {
             this.transform.rotation = (Quaternion.Euler(0, -90, 0));
         }
