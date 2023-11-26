@@ -13,7 +13,7 @@
 
 ## 킥라니 플레이어
 
-- gorani 2 프리팹 이용, 스크립트는 PlayerScripts 안에 있음
+- gorani 4 프리팹 이용, 스크립트는 PlayerScripts 안에 있음
 
 
 ## 스크립트
@@ -21,7 +21,7 @@
 ### PlayerScripts
 
 - wheelSpin : 바퀴 회전 구현
-- boardJump : 점프 모션 구현
+- PlayerJumpAnimated : 점프 모션 구현
 - PlayerDead : 플레이어 사망 모션 구현
 - PlayerMove : 플레이어 좌우 움직임 구현 (반동 구현 예정)
 - turnBoard : 플레이어 회전 구현 (회전 정확성 디버깅 필요)
