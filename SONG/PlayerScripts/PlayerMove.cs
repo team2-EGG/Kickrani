@@ -1,23 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    public float moveSpeed = 100.0f; // 움직임 속도를 조절할 변수
+    public float moveSpeed = 5.0f; // 이동 속도
+    private Rigidbody rb;
 
-    // Update is called once per frame
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
+
     void Update()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
+        float horizontalInput = Input.GetAxis("Horizontal"); // 좌우 이동 입력
 
-        // 현재 위치 업데이트
-        transform.position += new Vector3(horizontalInput, 0, 0) * moveSpeed * Time.deltaTime;
+        // 좌우 입력에 따라 위나 아래로 이동
+        Vector3 movementDirection = (horizontalInput > 0) ? -transform.forward : transform.forward;
+        Vector3 movement = movementDirection * Mathf.Abs(horizontalInput) * moveSpeed * Time.deltaTime;
 
-        // x축 위치 제한
-        float clampedX = Mathf.Clamp(transform.position.x, -20f, 20f);
-
-        // 위치 조정
-        transform.position = new Vector3(clampedX, transform.position.y, transform.position.z);
+        // 오브젝트의 위치 업데이트
+        rb.MovePosition(rb.position + movement);
     }
 }
+
+
+
