@@ -2,6 +2,15 @@
 
 - 만들 때 사용한 에셋은 ImportedAsset 안에 있습니다
 
+## 사용한 에셋
+
+- AurynSky : 별 아이템
+- battery : 배터리
+- DANKIE : 헬멧
+- ElectricScooter : 킥보드
+- ForceShiled : 실드
+- Quirky ~ : 고라니
+
 ## 킥라니 플레이어
 
 - gorani 2 프리팹 이용, 스크립트는 PlayerScripts 안에 있음
