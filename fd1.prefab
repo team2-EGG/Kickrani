@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 8512108652362511349}
   m_Layer: 0
   m_Name: streetline
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77,7 +77,7 @@ GameObject:
   - component: {fileID: 121913159132149282}
   m_Layer: 0
   m_Name: sidewalk
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -246,7 +246,7 @@ GameObject:
   - component: {fileID: 8448243492113660969}
   m_Layer: 0
   m_Name: obstacle
-  m_TagString: Untagged
+  m_TagString: obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -335,6 +335,10 @@ PrefabInstance:
     - target: {fileID: 1936729098691803884, guid: 23728f75e971e0043b62060b4830475a, type: 3}
       propertyPath: m_Name
       value: Car_A_C1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936729098691803884, guid: 23728f75e971e0043b62060b4830475a, type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 3223448144657844479, guid: 23728f75e971e0043b62060b4830475a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -756,6 +760,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Man_Character_1
       objectReference: {fileID: 0}
+    - target: {fileID: 3780411421371382385, guid: 1205668343f3c6549bf42d0b5e665345, type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 5797539936751130139, guid: 1205668343f3c6549bf42d0b5e665345, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.000000017229468
@@ -880,6 +888,10 @@ PrefabInstance:
     - target: {fileID: 1017326616319168385, guid: 41a2599dd5e3e0c44a5c3b2d97f6cf59, type: 3}
       propertyPath: m_Name
       value: Base_Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017326616319168385, guid: 41a2599dd5e3e0c44a5c3b2d97f6cf59, type: 3}
+      propertyPath: m_TagString
+      value: ground
       objectReference: {fileID: 0}
     - target: {fileID: 2454648922926979071, guid: 41a2599dd5e3e0c44a5c3b2d97f6cf59, type: 3}
       propertyPath: m_LocalScale.x
@@ -1061,6 +1073,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk_B
       objectReference: {fileID: 0}
+    - target: {fileID: 8155695480738616981, guid: 798dd54aeee17a34c805281424869614, type: 3}
+      propertyPath: m_TagString
+      value: ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1082,6 +1098,10 @@ PrefabInstance:
     - target: {fileID: 3855660114128158813, guid: 586d0408e60af75479ae878232f0b55b, type: 3}
       propertyPath: m_Name
       value: Street_Line_E
+      objectReference: {fileID: 0}
+    - target: {fileID: 3855660114128158813, guid: 586d0408e60af75479ae878232f0b55b, type: 3}
+      propertyPath: m_TagString
+      value: ground
       objectReference: {fileID: 0}
     - target: {fileID: 8822832969967121515, guid: 586d0408e60af75479ae878232f0b55b, type: 3}
       propertyPath: m_LocalScale.z
@@ -1251,6 +1271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk_B
       objectReference: {fileID: 0}
+    - target: {fileID: 8155695480738616981, guid: 798dd54aeee17a34c805281424869614, type: 3}
+      propertyPath: m_TagString
+      value: ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1313,6 +1337,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk_B (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8155695480738616981, guid: 798dd54aeee17a34c805281424869614, type: 3}
+      propertyPath: m_TagString
+      value: ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1374,6 +1402,10 @@ PrefabInstance:
     - target: {fileID: 8155695480738616981, guid: 798dd54aeee17a34c805281424869614, type: 3}
       propertyPath: m_Name
       value: Sidewalk_B (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8155695480738616981, guid: 798dd54aeee17a34c805281424869614, type: 3}
+      propertyPath: m_TagString
+      value: ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1953,6 +1985,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Man_Character_1
       objectReference: {fileID: 0}
+    - target: {fileID: 3780411421371382385, guid: 1205668343f3c6549bf42d0b5e665345, type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 5797539936751130139, guid: 1205668343f3c6549bf42d0b5e665345, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.000000017229468
@@ -2077,6 +2113,10 @@ PrefabInstance:
     - target: {fileID: 1896770531228788199, guid: 659e49454ad6d8a42aaef01f5e57ae14, type: 3}
       propertyPath: m_Name
       value: Truck
+      objectReference: {fileID: 0}
+    - target: {fileID: 1896770531228788199, guid: 659e49454ad6d8a42aaef01f5e57ae14, type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 3173339435450554356, guid: 659e49454ad6d8a42aaef01f5e57ae14, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2386,6 +2426,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street_Line_A
       objectReference: {fileID: 0}
+    - target: {fileID: 6919031524411434483, guid: 272b8665c9068a24f8d1d72ccf4116b5, type: 3}
+      propertyPath: m_TagString
+      value: ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2407,6 +2451,10 @@ PrefabInstance:
     - target: {fileID: 383383331078602878, guid: a7f409f6f54fc8a4fae46d381b81f452, type: 3}
       propertyPath: m_Name
       value: Man_Character_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 383383331078602878, guid: a7f409f6f54fc8a4fae46d381b81f452, type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 1314871466655783420, guid: a7f409f6f54fc8a4fae46d381b81f452, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2792,6 +2840,10 @@ PrefabInstance:
     - target: {fileID: 1017326616319168385, guid: 41a2599dd5e3e0c44a5c3b2d97f6cf59, type: 3}
       propertyPath: m_Name
       value: Base_Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017326616319168385, guid: 41a2599dd5e3e0c44a5c3b2d97f6cf59, type: 3}
+      propertyPath: m_TagString
+      value: ground
       objectReference: {fileID: 0}
     - target: {fileID: 2454648922926979071, guid: 41a2599dd5e3e0c44a5c3b2d97f6cf59, type: 3}
       propertyPath: m_LocalScale.x
