@@ -9,7 +9,7 @@ public class ScoreSaveButton : MonoBehaviour
     public GameObject NameText;
     public GameObject ScoreText;
     public Text highScoreText;
-    string name;
+    string playerName;
     int score = 0;
     ScoreManager sm;
     // Start is called before the first frame update
@@ -21,15 +21,15 @@ public class ScoreSaveButton : MonoBehaviour
     //이름 받는 부분과 애드플레이어, 출력부분 가져다 쓰면 될 듯
     public void OnClickSaveButton()
     {
-        name = NameText.GetComponent<InputField>().text;
-        if (name == "")
+        playerName = NameText.GetComponent<InputField>().text;
+        if (playerName == "")
         {
-            name = "Unknown";
+            playerName = "Unknown";
         }
 
         score = int.Parse(ScoreText.GetComponent<InputField>().text);
 
-        sm.AddPlayerScore(name, score);
+        sm.AddPlayerScore(playerName, score);
         highScoreText.text = sm.Top10();
 
         return;

@@ -1,6 +1,5 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine;
 using UnityEngine.UI; // 이 부분 추가
 using System.Collections.Generic;
 using System.IO;
