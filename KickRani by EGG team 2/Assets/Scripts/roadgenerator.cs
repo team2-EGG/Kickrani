@@ -56,6 +56,7 @@ public class roadgenerator : MonoBehaviour
     }
     void Start()
     {
+        Debug.Log("정상영업중");
         this.transform.position = Vector3.zero;
         timetogen = true;
     }
