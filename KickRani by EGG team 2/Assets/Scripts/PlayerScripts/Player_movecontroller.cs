@@ -23,7 +23,7 @@ public class Player_movecontroller : MonoBehaviour
     // player jump
     public float jumpForce = 10f;
     public Transform childObject;
-    private bool isGrounded;
+    private bool isGrounded = true;
     private Vector3 originalChildPosition;
     private Quaternion originalChildRotation;
     // 공중에 떠 있을 때 적용할 위치와 회전값
