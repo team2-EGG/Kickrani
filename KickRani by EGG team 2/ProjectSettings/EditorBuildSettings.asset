@@ -21,6 +21,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Score.unity
     guid: c5ca6c9b362a6fc49bd98787a7137012
   - enabled: 0
-    path: Assets/Scenes/walking_man.unity
+    path: Assets/Scenes/walking_man/walking_man.unity
     guid: e2106f23311309345b1cb7b83d2b473b
   m_configObjects: {}

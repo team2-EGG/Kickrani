@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class roadgenerator : MonoBehaviour
 {
+    public GameObject baker;
+    Baker bk;
     public GameObject[] roadTiles;
     public int[] roadCodes;
     public GameObject Fd = null;
@@ -17,7 +19,7 @@ public class roadgenerator : MonoBehaviour
     void Start()
     {
         this.transform.position = Vector3.zero;
-
+        bk = baker.GetComponent<Baker>(); ;
         // 오브젝트 풀링
         roadTiles = new GameObject[50];
         roadCodes = new int[50];
@@ -81,6 +83,8 @@ public class roadgenerator : MonoBehaviour
         {
             this.transform.Rotate(0, 90, 0);
         }
+
+        bk.BakeRoad();
 
         // 이동
         this.transform.position += this.transform.right * chunkSize;
