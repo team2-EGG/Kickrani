@@ -35,6 +35,7 @@ public class pmc_mobile : MonoBehaviour
     private Vector2 startTouchPos;
     private Vector2 endTouchPos;
     private Vector2 touchDif;
+    public float sensitive = 0.7f;
 
     private void Start()
     {
@@ -50,7 +51,7 @@ public class pmc_mobile : MonoBehaviour
 
         // 좌우 입력에 따라 위나 아래로 이동
         Vector3 movementDirection = (tiltX > 0) ? -transform.forward : transform.forward;
-        Vector3 movement = movementDirection * Mathf.Abs(tiltX) * moveSpeed * Time.deltaTime;
+        Vector3 movement = movementDirection * Mathf.Abs(tiltX) * moveSpeed * Time.deltaTime*sensitive;
 
         // 오브젝트의 위치 업데이트
         rb.MovePosition(rb.position + movement);

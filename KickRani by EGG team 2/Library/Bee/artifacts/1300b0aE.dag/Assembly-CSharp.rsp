@@ -366,6 +366,7 @@
 "Assets/Items/AnimationScript.cs"
 "Assets/Items/ItemController.cs"
 "Assets/Prefabs/RoadPrefab/BreakRoadTile.cs"
+"Assets/Scenes/End_score.cs"
 "Assets/Scripts/AI Navigation/Baker.cs"
 "Assets/Scripts/AI Navigation/MovingObstacle.cs"
 "Assets/Scripts/AI Navigation/Target.cs"

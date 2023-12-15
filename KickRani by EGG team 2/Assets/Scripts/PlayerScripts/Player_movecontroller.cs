@@ -99,14 +99,14 @@ public class Player_movecontroller : MonoBehaviour
             {
                 death = false;
                 currentRotation = 0f;
-                SceneManager.LoadScene("Score");
+                SceneManager.LoadScene("End");
             }
         }
 
         // 플레이어 전진 관련
         // 전진 방향을 계산 (오브젝트의 앞쪽 방향)
         Vector3 right = transform.right;
-        speed = 10 + (GM.difficulty-1) * 5;
+        speed = 20 + (GM.difficulty-1) * 2;
 
         // 리지드바디를 사용하여 오브젝트를 전진시킴
         rb.MovePosition(rb.position + right * speed * Time.fixedDeltaTime);

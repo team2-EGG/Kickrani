@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class gameManager : MonoBehaviour
 {
@@ -22,6 +23,12 @@ public class gameManager : MonoBehaviour
     public int score = 0;
     public float score_time = 0.0f;
     public int increase_score = 50;
+    public Text ScoreText;
+    public GameObject Scoreboard;
+    public static class DataHolder
+    {
+        public static int SomeValue = 0;
+    }
 
     // ³­ÀÌµµ
     public int difficulty = 0;
@@ -33,6 +40,7 @@ public class gameManager : MonoBehaviour
         gorani_moveScript.speed = 0.0f;
         increase_score = 0;
         gorani_moveScript.death = true;
+        DataHolder.SomeValue = score;
     }
 
     public void getItemHelmet() // Çï¸ä Âø¿ë
@@ -101,6 +109,8 @@ public class gameManager : MonoBehaviour
             score_time = 0;
             Debug.Log(score);
         }
+
+        Scoreboard.GetComponent<Text>().text = score.ToString();
 
         // ³­ÀÌµµ Ã¥Á¤
         difficulty_time += Time.deltaTime;

@@ -8,7 +8,7 @@ public class StartGame : MonoBehaviour
     // Start is called before the first frame update
     public void StartBtn()
     {
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene("Shin");
     }
 
     // Update is called once per frame
