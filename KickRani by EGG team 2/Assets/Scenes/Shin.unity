@@ -216,7 +216,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &112349676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,6 +231,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wearingHelmet: 0
   stamina: 100
+  gorani: {fileID: 0}
+  gorani_ctrlScript: {fileID: 0}
+  gorani_moveScript: {fileID: 0}
+  hit_helmet: 0
+  hit_star: 0
+  hit_bat: 0
+  helmet_time: 0
+  star_time: 0
+  bat_time: 0
+  gorani_col: {fileID: 0}
+  score: 0
+  score_time: 0
+  increase_score: 1
 --- !u!4 &112349677
 Transform:
   m_ObjectHideFlags: 0
@@ -285,6 +298,7 @@ MonoBehaviour:
   chunkSize: 52
   genTime: 1
   pullingRoadCode: 0
+  itemprefab: {fileID: 0}
 --- !u!4 &268432669
 Transform:
   m_ObjectHideFlags: 0
