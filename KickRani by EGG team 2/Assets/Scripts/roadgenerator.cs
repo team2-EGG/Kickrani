@@ -34,7 +34,7 @@ public class roadgenerator : MonoBehaviour
             
             while (true)
             {
-                randomNumber = random.Next(0, 8);
+                randomNumber = random.Next(0, 7);
                 roadCodes[i] = randomNumber;
                 if (randomNumber != genroadcode)
                 {

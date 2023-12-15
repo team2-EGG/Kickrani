@@ -1,0 +1,1245 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.13f1 (5f90a5ebde0f) revision 6262949'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 16107 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/hshin/OneDrive/문서/GitHub/Kickrani/KickRani by EGG team 2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+64560
+Successfully changed project path to: C:/Users/hshin/OneDrive/문서/GitHub/Kickrani/KickRani by EGG team 2
+C:/Users/hshin/OneDrive/문서/GitHub/Kickrani/KickRani by EGG team 2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8232] Host "[IP] 10.5.11.237 [Port] 0 [Flags] 2 [Guid] 2315601962 [EditorId] 2315601962 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-RCKG7TPR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8232] Host "[IP] 10.5.11.237 [Port] 0 [Flags] 2 [Guid] 2315601962 [EditorId] 2315601962 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-RCKG7TPR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 14.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/hshin/OneDrive/문서/GitHub/Kickrani/KickRani by EGG team 2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8053 MB
+    Driver:   27.20.100.9415
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010301 seconds.
+- Loaded All Assemblies, in  0.536 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.472 seconds
+Domain Reload Profiling: 1005ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (222ms)
+		LoadAssemblies (146ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (217ms)
+			TypeCache.Refresh (215ms)
+				TypeCache.ScanAssembly (193ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (473ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (390ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (117ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.022 seconds
+Refreshing native plugins compatible for Editor in 4.01 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.967 seconds
+Domain Reload Profiling: 1984ms
+	BeginReloadAssembly (230ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (97ms)
+	LoadAllAssembliesAndSetupDomain (604ms)
+		LoadAssemblies (447ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (302ms)
+			TypeCache.Refresh (276ms)
+				TypeCache.ScanAssembly (250ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (968ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (668ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (466ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 4.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3148 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.2 KB). Loaded Objects now: 3614.
+Memory consumption went from 133.9 MB to 133.9 MB.
+Total: 4.246000 ms (FindLiveObjects: 0.271600 ms CreateObjectMapping: 0.273200 ms MarkObjects: 3.543700 ms  DeleteObjects: 0.155400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1037052.163723 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/alarm_siren_loop_01.wav
+  artifactKey: Guid(031aa2fdb9d4e0b4196f7d6487b4df08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/alarm_siren_loop_01.wav using Guid(031aa2fdb9d4e0b4196f7d6487b4df08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa9dadbebd900fa878eab8b13f80010') in 0.166442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/clock_ticking_01.wav
+  artifactKey: Guid(26d85f343305c374588e31319f2dd0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/clock_ticking_01.wav using Guid(26d85f343305c374588e31319f2dd0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148aa126b4051d82b795fecc55028b75') in 0.036937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/alarm_siren_loop_02.wav
+  artifactKey: Guid(4fa15cea04437cf4c801de02730b8ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/alarm_siren_loop_02.wav using Guid(4fa15cea04437cf4c801de02730b8ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0f87c7abe41416fc24cee03f47fc70') in 0.035866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/door_lock_fail_01.wav
+  artifactKey: Guid(9fbd3e24f7059db4199076ebc82086ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/door_lock_fail_01.wav using Guid(9fbd3e24f7059db4199076ebc82086ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46bccda525e3027b82eb7c215d2108d') in 0.031804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/door_lock_fail_02.wav
+  artifactKey: Guid(3766cfdc58db9ae4ba88013339af9387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/door_lock_fail_02.wav using Guid(3766cfdc58db9ae4ba88013339af9387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb713c54f99b146a4e36fed1bdaa9bbb') in 0.035303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/bird_crow_call_caw_squawk_close_02.wav
+  artifactKey: Guid(0a2c78c19bd85724abe8e3524a1655ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/bird_crow_call_caw_squawk_close_02.wav using Guid(0a2c78c19bd85724abe8e3524a1655ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd024999ccac5d391816a5558aef3e3') in 0.048966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/door_hatch_squeak_close_01.wav
+  artifactKey: Guid(485d48b1fed5a2a4cbac2eb6e6ae904e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/door_hatch_squeak_close_01.wav using Guid(485d48b1fed5a2a4cbac2eb6e6ae904e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a4d9d3ba16fcd66321f9c86f0c9011') in 0.032625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/bell_small_ringing_04.wav
+  artifactKey: Guid(3451998e0a3a6e54dae8c806a4b95a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/bell_small_ringing_04.wav using Guid(3451998e0a3a6e54dae8c806a4b95a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e70a85b3e6c8e92f32bf3d3b393dc1') in 0.050288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/clock_cuckoo_clock_bird_call_01.wav
+  artifactKey: Guid(2a9ab56aa27df3343a1344c5b3590fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/clock_cuckoo_clock_bird_call_01.wav using Guid(2a9ab56aa27df3343a1344c5b3590fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8f0cc5eaffa31741c4b8f28355c460') in 0.031417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/beep_03.wav
+  artifactKey: Guid(651a5ab8f33fccf4fa6410e0d51015ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/beep_03.wav using Guid(651a5ab8f33fccf4fa6410e0d51015ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe41a4a3ec9be4f84d1241436d8a790') in 0.034471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/door_lock_close_02.wav
+  artifactKey: Guid(06c2f22206ff0e44a8e5f6a29aec7bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/door_lock_close_02.wav using Guid(06c2f22206ff0e44a8e5f6a29aec7bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c126fd4f54a0e82efe7bc226b89e5c5') in 0.036148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/door_creak_short_01.wav
+  artifactKey: Guid(af6be45b73bfb714ba044d563b3d0b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/door_creak_short_01.wav using Guid(af6be45b73bfb714ba044d563b3d0b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db6e28656086d61803ef7a90feb0c5c') in 0.041494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/door_close_slam_slow_03.wav
+  artifactKey: Guid(72e31b3a20cb0f34190da5695d876667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/door_close_slam_slow_03.wav using Guid(72e31b3a20cb0f34190da5695d876667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac86ec4a6e4885de5a750cfffde229cb') in 0.035500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/door_close_slam_slow_02.wav
+  artifactKey: Guid(05b8fff0afc667947bdf781595fd6f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/door_close_slam_slow_02.wav using Guid(05b8fff0afc667947bdf781595fd6f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce2873b151d6f5a40c1e4b3f10b20b1') in 0.034327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/door_lock_close_01.wav
+  artifactKey: Guid(d1814f4aeb0fa4340a8aa080564c4f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/door_lock_close_01.wav using Guid(d1814f4aeb0fa4340a8aa080564c4f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3834c88d59fe8b37e76d653bc42af2') in 0.029667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/door_creak_short_02.wav
+  artifactKey: Guid(fc1fe12435a627c4e8a752f2881add57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/door_creak_short_02.wav using Guid(fc1fe12435a627c4e8a752f2881add57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbb7dff5e900ed86d751d8d37841b43') in 0.039677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/chime_bell_01.wav
+  artifactKey: Guid(37e7eb69ab2f5f24d8ef2b925e382baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/chime_bell_01.wav using Guid(37e7eb69ab2f5f24d8ef2b925e382baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d86be620972b72ee7314d24fa400236') in 0.042119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/door_close_slam_slow_01.wav
+  artifactKey: Guid(025f7d92bbcca6b4a8fa7fb4b68746f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/door_close_slam_slow_01.wav using Guid(025f7d92bbcca6b4a8fa7fb4b68746f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a780083a5bde40e505da5a9b8947c60c') in 0.029021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3624.
+Memory consumption went from 81.3 MB to 81.3 MB.
+Total: 3.758100 ms (FindLiveObjects: 0.319300 ms CreateObjectMapping: 0.398900 ms MarkObjects: 3.000500 ms  DeleteObjects: 0.037800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 84.258955 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/explosion_large_03.wav
+  artifactKey: Guid(652eb6be8549e574b94067728066ad1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/explosion_large_03.wav using Guid(652eb6be8549e574b94067728066ad1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e175755c53b3fed9d03a6d12b98f081a') in 0.055393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/gun_rifle_sniper_dry_fire_01.wav
+  artifactKey: Guid(7128958e5292cc645a571401944aa889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/gun_rifle_sniper_dry_fire_01.wav using Guid(7128958e5292cc645a571401944aa889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf407e931083a334edcf7cac8bafc035') in 0.023694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/gun_rifle_sniper_cock_02.wav
+  artifactKey: Guid(487b9b96470e66346948d2c91e00aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/gun_rifle_sniper_cock_02.wav using Guid(487b9b96470e66346948d2c91e00aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4cb9a673b0e5c9bd70ae7de01fa47f') in 0.032433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/foley_leather_stretch_couch_chair_06.wav
+  artifactKey: Guid(7d23423194f84774f9ade16ff6af76f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/foley_leather_stretch_couch_chair_06.wav using Guid(7d23423194f84774f9ade16ff6af76f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852636aa6441baf935fedd553f824a51') in 0.031008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/explosion_small_01.wav
+  artifactKey: Guid(82032f22630f04d4198abbb89b8c6d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/explosion_small_01.wav using Guid(82032f22630f04d4198abbb89b8c6d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3174fe04cc69fc15a0017a428974290b') in 0.041291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.358605 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/gun_rifle_sniper_shot_03.wav
+  artifactKey: Guid(f03cc1dca8171d048a1235353473a62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/gun_rifle_sniper_shot_03.wav using Guid(f03cc1dca8171d048a1235353473a62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ac591bc7510d992ef3e9386315c657') in 0.038291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/metal_lid_movement_impact_02.wav
+  artifactKey: Guid(7d0f12fae3941f745b91e8f42db0d331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/metal_lid_movement_impact_02.wav using Guid(7d0f12fae3941f745b91e8f42db0d331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184054f0a025dbc8efc22869984bc869') in 0.029697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/hum_motor_elec_neon_loop_01.wav
+  artifactKey: Guid(9b8dd83050c48704abcd86f8798e77ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/hum_motor_elec_neon_loop_01.wav using Guid(9b8dd83050c48704abcd86f8798e77ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55f93ccbbc8fc5887d51737e7b25cb9') in 0.067967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/lighter_gas_sparks_flame_02.wav
+  artifactKey: Guid(1ab6a32958c75b14e8a1dd3729527ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/lighter_gas_sparks_flame_02.wav using Guid(1ab6a32958c75b14e8a1dd3729527ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7fc33c61413a5dfc7dab2187d1007f') in 0.035754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/metal_lid_movement_impact_03.wav
+  artifactKey: Guid(e42dca07036de5c418d2c03e42b47549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/metal_lid_movement_impact_03.wav using Guid(e42dca07036de5c418d2c03e42b47549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5017edaf1bec7f72fe459ab75c32afa8') in 0.033976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 36.539114 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/metal_small_movement_02.wav
+  artifactKey: Guid(fd898e2ea065254419516d74ce231bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/metal_small_movement_02.wav using Guid(fd898e2ea065254419516d74ce231bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1657018fde95cf8912b52aceae744b5') in 0.021984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/metal_small_movement_04.wav
+  artifactKey: Guid(8bb54678048a8204788b742cde423d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/metal_small_movement_04.wav using Guid(8bb54678048a8204788b742cde423d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea23cf28830f62bfd60255f3130a685') in 0.039507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/metal_small_movement_09.wav
+  artifactKey: Guid(bcff33a8dcd82444aa019b774b935254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/metal_small_movement_09.wav using Guid(bcff33a8dcd82444aa019b774b935254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8309a488506715de637cc1ee6b31b514') in 0.027135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/metal_small_movement_05.wav
+  artifactKey: Guid(244c8903791165a459e4b15545e2a3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/metal_small_movement_05.wav using Guid(244c8903791165a459e4b15545e2a3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9307397e8491188b090aee94a6610526') in 0.029908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/metal_small_movement_06.wav
+  artifactKey: Guid(68be2d1b5e7ec62448de12087e6b687c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/metal_small_movement_06.wav using Guid(68be2d1b5e7ec62448de12087e6b687c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434618bfeda21865528b253666a0106d') in 0.038406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/metal_small_movement_07.wav
+  artifactKey: Guid(553b24c8375d2dd48a5ba93c6e8d7c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/metal_small_movement_07.wav using Guid(553b24c8375d2dd48a5ba93c6e8d7c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b164a78a381ee1cca9576ab0c42dd7') in 0.033626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 59.880452 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/pencil_sketch_draw_write_squibble_02_med_01.wav
+  artifactKey: Guid(d438525aae351ae429df14c258ef875f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/pencil_sketch_draw_write_squibble_02_med_01.wav using Guid(d438525aae351ae429df14c258ef875f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87dada7babe4555350e43b42c75ff672') in 0.042262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/punch_grit_wet_impact_02.wav
+  artifactKey: Guid(dd01e054af66d194d9f5f680e53ec707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/punch_grit_wet_impact_02.wav using Guid(dd01e054af66d194d9f5f680e53ec707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99688e06d7578a3a599bb6a6c08e0d4') in 0.032458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/punch_grit_wet_impact_04.wav
+  artifactKey: Guid(a70163fd924defd438b5f6347edfbe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/punch_grit_wet_impact_04.wav using Guid(a70163fd924defd438b5f6347edfbe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99724d7166a8287cd13e1f1a4949706') in 0.035212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/punch_grit_wet_impact_01.wav
+  artifactKey: Guid(502ba81c4bcfcbf4b8bce86a7c1b64ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/punch_grit_wet_impact_01.wav using Guid(502ba81c4bcfcbf4b8bce86a7c1b64ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9439617be3ff77e776989ed9166b8699') in 0.029925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/pencil_sketch_draw_write_squibble_02_med_03.wav
+  artifactKey: Guid(d7c5ed5a790809e4788bc8928e99504b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/pencil_sketch_draw_write_squibble_02_med_03.wav using Guid(d7c5ed5a790809e4788bc8928e99504b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e02bba347aded61424f6d1336a5411b') in 0.037424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.827202 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/punch_slap_whack_hit_03.wav
+  artifactKey: Guid(58ec78af03a09334f9f3a8cbbfdfb216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/punch_slap_whack_hit_03.wav using Guid(58ec78af03a09334f9f3a8cbbfdfb216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f9e449ce3b865578c9aa2c4f2e6c6a') in 0.029392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/radio_tv_electronic_static_01.wav
+  artifactKey: Guid(8fdc0a8e2f9ddd3468545215e8b3f559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/radio_tv_electronic_static_01.wav using Guid(8fdc0a8e2f9ddd3468545215e8b3f559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d3881f2c3f397b2a63cb801676547e') in 0.049313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/radio_tv_electronic_static_06.wav
+  artifactKey: Guid(68b1bbd90a0020d4ca23691d542a5620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/radio_tv_electronic_static_06.wav using Guid(68b1bbd90a0020d4ca23691d542a5620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643dd435e15ef14eba410de24d7d8a4a') in 0.023564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/radio_tv_electronic_static_05.wav
+  artifactKey: Guid(c1d06dc51b1dfc048ae4495dd2beee94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/radio_tv_electronic_static_05.wav using Guid(c1d06dc51b1dfc048ae4495dd2beee94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31acc9b0d86816320adc5bf04a083ca8') in 0.040489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/radio_tv_electronic_static_08.wav
+  artifactKey: Guid(8e062d97fcfb809469b77252db038cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/radio_tv_electronic_static_08.wav using Guid(8e062d97fcfb809469b77252db038cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5628177675c75cc4f94c9433fbd75651') in 0.039891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 18.699224 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/radio_tv_electronic_static_10.wav
+  artifactKey: Guid(b08f456d8d224d94d9fa49e7c2300b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/radio_tv_electronic_static_10.wav using Guid(b08f456d8d224d94d9fa49e7c2300b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33a01ac49327aa4ac750dd55935cff6') in 0.038564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/sci-fi_driod_robot_emote_beeps_08.wav
+  artifactKey: Guid(5a47e07344545074e9c96ea8ee3d8bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/sci-fi_driod_robot_emote_beeps_08.wav using Guid(5a47e07344545074e9c96ea8ee3d8bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514dd43bbf95c47b58fa37669dca3c86') in 0.044775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/sci-fi_device_item_power_up_flash_01.wav
+  artifactKey: Guid(30f29314fc5565447b5311e3ee132ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/sci-fi_device_item_power_up_flash_01.wav using Guid(30f29314fc5565447b5311e3ee132ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff84feedc53b1993554b05e918e0eb1e') in 0.038982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/sci-fi_driod_robot_emote_beeps_04.wav
+  artifactKey: Guid(bbd334cc00d958e43a921a6f9484e04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/sci-fi_driod_robot_emote_beeps_04.wav using Guid(bbd334cc00d958e43a921a6f9484e04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa46e41dd0d17f29f069a9e95ff9606d') in 0.026562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/sci-fi_driod_robot_emote_04.wav
+  artifactKey: Guid(20eb3056e92c0c748953133e5d633aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/sci-fi_driod_robot_emote_04.wav using Guid(20eb3056e92c0c748953133e5d633aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1744016050c67f5b675db3fb1c57013e') in 0.035214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/rooster_crowing_03.wav
+  artifactKey: Guid(76200092321d57f458a2044cd1bf940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/rooster_crowing_03.wav using Guid(76200092321d57f458a2044cd1bf940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eecea30792781e5b35a450992bec3b6') in 0.034817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.850313 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/sci-fi_power_on_rise_beep_01.wav
+  artifactKey: Guid(97811d6e0217094459b26e9083ed81e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/sci-fi_power_on_rise_beep_01.wav using Guid(97811d6e0217094459b26e9083ed81e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c546ccb848582e9115c15941f8cda4') in 0.039168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/sci-fi_power_up_05.wav
+  artifactKey: Guid(e688d58121d34284d820de9d826dfcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/sci-fi_power_up_05.wav using Guid(e688d58121d34284d820de9d826dfcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb2060f017f9b8971f95869281b4b57') in 0.040236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/shaker_sprinkle_seeds_salt_pepper_cooking_gardening_02.wav
+  artifactKey: Guid(429d14ce47b7ae0479d3873360da0e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/shaker_sprinkle_seeds_salt_pepper_cooking_gardening_02.wav using Guid(429d14ce47b7ae0479d3873360da0e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df2b19f03a6ca84deb13a4c8f72c61a') in 0.034504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/scissors_cutting_low_chop_07.wav
+  artifactKey: Guid(50146016def98954eb04224d8ecea5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/scissors_cutting_low_chop_07.wav using Guid(50146016def98954eb04224d8ecea5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e2fcaa07e120310c5c0873dbfd7ae8') in 0.034778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/sci-fi_scan_target_05.wav
+  artifactKey: Guid(f4d09cf6b1261494eb274e7ef9872216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/sci-fi_scan_target_05.wav using Guid(f4d09cf6b1261494eb274e7ef9872216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c70630a9027e42daae190671ad7f68c') in 0.040102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 37.246021 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/snow_digging_scooping_shoveling_02.wav
+  artifactKey: Guid(ef1f0170ab5682c48b9cab9674e68ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/snow_digging_scooping_shoveling_02.wav using Guid(ef1f0170ab5682c48b9cab9674e68ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daef689047dc5b413532c402ac39d512') in 0.024867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/snowball_pickup_scoop_03.wav
+  artifactKey: Guid(c2285c2936d91244f86a2d92c89b8ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/snowball_pickup_scoop_03.wav using Guid(c2285c2936d91244f86a2d92c89b8ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f013b890a2378a74c166daf507a8bf1') in 0.032503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/spray_bottle_02.wav
+  artifactKey: Guid(4b92708bf962c8a4ab3acf40cb2f49cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/spray_bottle_02.wav using Guid(4b92708bf962c8a4ab3acf40cb2f49cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab0538885bfa03edc297706b93d4985') in 0.028608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/snow_digging_scooping_shoveling_04.wav
+  artifactKey: Guid(f555d65000490964fa99ebe3c8b3aa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/snow_digging_scooping_shoveling_04.wav using Guid(f555d65000490964fa99ebe3c8b3aa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e685f9caefa1cde4978c0eeb55118843') in 0.031996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/spray_bottle_01.wav
+  artifactKey: Guid(7815df11ace00ef44b664854970fc6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/spray_bottle_01.wav using Guid(7815df11ace00ef44b664854970fc6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6964a41d9d0c1c80727148030292db') in 0.034985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 25.021159 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/stone_brick_block_small_pushing_dragging_01.wav
+  artifactKey: Guid(61f8e352f73e33046a783593476e64f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/stone_brick_block_small_pushing_dragging_01.wav using Guid(61f8e352f73e33046a783593476e64f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd099505e979f83569ecaf556744c55') in 0.032904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/stones_gravel_small_dirt_movement_03.wav
+  artifactKey: Guid(6bb1aba56069b884796b3362aa73e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/stones_gravel_small_dirt_movement_03.wav using Guid(6bb1aba56069b884796b3362aa73e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6f257a049e8ac55f4a85f4bf5bff0a') in 0.031269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/stones_gravel_small_dirt_movement_05.wav
+  artifactKey: Guid(134df76fcebabcc4484d67d952be264e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/stones_gravel_small_dirt_movement_05.wav using Guid(134df76fcebabcc4484d67d952be264e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c24adfd3d1fc95c46ff8d709d6f482') in 0.034070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/toliet_flush_lever_water_gurgle_01.wav
+  artifactKey: Guid(8da4cd6bbeb9aa94f8617a09ca658b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/toliet_flush_lever_water_gurgle_01.wav using Guid(8da4cd6bbeb9aa94f8617a09ca658b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc3504510805e3f769e94409023a21f') in 0.082529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.341523 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/toy_bells_kids_bath_chime_jingle_04.wav
+  artifactKey: Guid(342f5a74e24a72142be62f120c17fead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/toy_bells_kids_bath_chime_jingle_04.wav using Guid(342f5a74e24a72142be62f120c17fead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a7d77d976162c1cc927f153374d6a8') in 0.033305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/weapon_fun_pea_shooter_02.wav
+  artifactKey: Guid(ce1355fc25d01c54e95440b9b37461d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/weapon_fun_pea_shooter_02.wav using Guid(ce1355fc25d01c54e95440b9b37461d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb3485b02d479bfb2089b34d2bf0a38') in 0.038230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/whoosh_swish_small_03.wav
+  artifactKey: Guid(e92e2c5929ea4d442917b6b08ede9d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/whoosh_swish_small_03.wav using Guid(e92e2c5929ea4d442917b6b08ede9d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163a3927f9e862fcbec5c3c71cde33d2') in 0.029497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/wood_block_sticks_hit_clap_01.wav
+  artifactKey: Guid(541d21ac33a996f40a4c9b7777925435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/wood_block_sticks_hit_clap_01.wav using Guid(541d21ac33a996f40a4c9b7777925435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7927128fe706e67e6c0881e44130881b') in 0.021872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/whoosh_swish_small_01.wav
+  artifactKey: Guid(37df4af2b924eb44eb595ada8ff9b863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/whoosh_swish_small_01.wav using Guid(37df4af2b924eb44eb595ada8ff9b863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2606a2838c127f1c9a38271d4c7b0610') in 0.027654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/whoosh_swish_small_05.wav
+  artifactKey: Guid(7d1fd29f68b960a48998a84069b2769c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/whoosh_swish_small_05.wav using Guid(7d1fd29f68b960a48998a84069b2769c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6581a318f8211113b0ad73b86becaf29') in 0.023270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.591656 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/wood_block_sticks_hit_clap_03.wav
+  artifactKey: Guid(536d1ad943ea53f4eaa34417ccd4be09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/wood_block_sticks_hit_clap_03.wav using Guid(536d1ad943ea53f4eaa34417ccd4be09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1740af62afd25cf959a6484ac9392e25') in 0.031225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/wood_spring_pogo_stick_bounce_07.wav
+  artifactKey: Guid(ceec465e167eee646b6a34909d231e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/wood_spring_pogo_stick_bounce_07.wav using Guid(ceec465e167eee646b6a34909d231e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47854492633de628ad10709e5d107fc') in 0.024784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/wood_tree_branch_move_01.wav
+  artifactKey: Guid(569b439ed3a48414a93bb1e3b05db2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/wood_tree_branch_move_01.wav using Guid(569b439ed3a48414a93bb1e3b05db2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd229df5765a1ec130e054dab0faa2af5') in 0.038472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/wood_tree_branch_move_05.wav
+  artifactKey: Guid(a946b3acc24e29e41bcb83029d0322e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/wood_tree_branch_move_05.wav using Guid(a946b3acc24e29e41bcb83029d0322e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5f3fd2300f268ba808a6a1ca043afb') in 0.026347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/wood_tree_branch_move_08.wav
+  artifactKey: Guid(a57bf087bd1a8a046b5c2ce6ff69945a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_150_Bonus_Sounds/wood_tree_branch_move_08.wav using Guid(a57bf087bd1a8a046b5c2ce6ff69945a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c641ed37cc005b7db6ba09b237dcadb1') in 0.044876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 46.943265 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_Bonus_Music/music_candyland.wav
+  artifactKey: Guid(a784c8f3b58c5b24a9d1dd9d8945030f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_Bonus_Music/music_candyland.wav using Guid(a784c8f3b58c5b24a9d1dd9d8945030f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed26fb3939b301e65716bed418dd0edf') in 0.380344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_Bonus_Music/music_kids_play_loop_02.wav
+  artifactKey: Guid(91e6b48bd2f02ec4d92daa08ddb3a7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_Bonus_Music/music_kids_play_loop_02.wav using Guid(91e6b48bd2f02ec4d92daa08ddb3a7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42b66b3588f3722e5407712bf25b13a') in 0.079163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_Bonus_Music/music_sting_short_groovy_flute_01.wav
+  artifactKey: Guid(c293fbe013835bb48970387978917cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_Bonus_Music/music_sting_short_groovy_flute_01.wav using Guid(c293fbe013835bb48970387978917cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61db38180a46fe82927cc1d02f37d40') in 0.064906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_Bonus_Music/music_happy_high_pop_advertising_jingle.wav
+  artifactKey: Guid(1aee7250b69b49b43be63edfabe293e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_Bonus_Music/music_happy_high_pop_advertising_jingle.wav using Guid(1aee7250b69b49b43be63edfabe293e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88cc239f4bbe6e7c5ca13a62743a430') in 0.571442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_Bonus_Music/music_sting_short_groovy_flute_03.wav
+  artifactKey: Guid(ab2eb6c17f4afc44ab07e5de40a15ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_Bonus_Music/music_sting_short_groovy_flute_03.wav using Guid(ab2eb6c17f4afc44ab07e5de40a15ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427a14d83728b89984c73e5cb1610074') in 0.044520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_Bonus_Music/music_kids_play_loop_03.wav
+  artifactKey: Guid(9bd18169792e21c44a8e66f3473338b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_Bonus_Music/music_kids_play_loop_03.wav using Guid(9bd18169792e21c44a8e66f3473338b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a166a3eced1c97b2269daa9f0183a70f') in 0.100223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002494 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_Bonus_Music/music_fun_funky_whistle_groove_loop.wav
+  artifactKey: Guid(61cb60d759c121d429de2e0f0b1a7543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_Bonus_Music/music_fun_funky_whistle_groove_loop.wav using Guid(61cb60d759c121d429de2e0f0b1a7543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686944d1bd37f67d379e7a45ee9fc6e8') in 0.305746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_Bonus_Music/music_fun_funky_toadstool.wav
+  artifactKey: Guid(2830fb936ebbe9046a985386fb94171c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_Bonus_Music/music_fun_funky_toadstool.wav using Guid(2830fb936ebbe9046a985386fb94171c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debdfbe72cae6f61aa6359ed7a499b14') in 0.225602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Gamemaster Audio - Fun Casual Sounds/Ω_Bonus_Music/music_comedy_quirky_fun_knockout.wav
+  artifactKey: Guid(a3d6739d4740a5d47b622db8794cb79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Fun Casual Sounds/Ω_Bonus_Music/music_comedy_quirky_fun_knockout.wav using Guid(a3d6739d4740a5d47b622db8794cb79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5773ac03bc7304d811b59dd158588f5d') in 0.576065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 170.841035 seconds.
+  path: Assets/Prefabs/RoadPrefab/fd2.prefab
+  artifactKey: Guid(27293ab7205e1a149b5a5a85a8d71b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RoadPrefab/fd2.prefab using Guid(27293ab7205e1a149b5a5a85a8d71b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209861b4b9c8f589f7720f9cdc7c4e87') in 0.325771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1979
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/RoadPrefab/turnright1.prefab
+  artifactKey: Guid(f4e2739e1617e014d97e400d6322b651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RoadPrefab/turnright1.prefab using Guid(f4e2739e1617e014d97e400d6322b651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc9620ee274cd8e4cd98524b701f09b') in 0.187613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 997
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Prefabs/RoadPrefab/turnright2.prefab
+  artifactKey: Guid(76fc6d4396b5c42478e11a162902528a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RoadPrefab/turnright2.prefab using Guid(76fc6d4396b5c42478e11a162902528a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef59653e07171d047d1787d5a80eb4dc') in 0.155802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1552
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/RoadPrefab/fd3 1.prefab
+  artifactKey: Guid(3fad79a2e303a364b9fc2fe361fa7222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RoadPrefab/fd3 1.prefab using Guid(3fad79a2e303a364b9fc2fe361fa7222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb23d158073276946cb070e51daf7d56') in 0.117860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1613
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.882 seconds
+Refreshing native plugins compatible for Editor in 5.92 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.626 seconds
+Domain Reload Profiling: 2504ms
+	BeginReloadAssembly (336ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (83ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (407ms)
+		LoadAssemblies (563ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (47ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1627ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (857ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (605ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3628.
+Memory consumption went from 134.1 MB to 134.1 MB.
+Total: 7.882500 ms (FindLiveObjects: 0.547700 ms CreateObjectMapping: 0.593200 ms MarkObjects: 6.685200 ms  DeleteObjects: 0.053400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.851 seconds
+Refreshing native plugins compatible for Editor in 11.75 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.664 seconds
+Domain Reload Profiling: 2509ms
+	BeginReloadAssembly (318ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (366ms)
+		LoadAssemblies (517ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (39ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1665ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (687ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (471ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3136 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3631.
+Memory consumption went from 136.3 MB to 136.2 MB.
+Total: 4.264300 ms (FindLiveObjects: 0.291300 ms CreateObjectMapping: 0.350700 ms MarkObjects: 3.548300 ms  DeleteObjects: 0.071900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.838 seconds
+Refreshing native plugins compatible for Editor in 4.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.695 seconds
+Domain Reload Profiling: 2529ms
+	BeginReloadAssembly (309ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (370ms)
+		LoadAssemblies (554ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1696ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (773ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (77ms)
+			SetLoadedEditorAssemblies (16ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (494ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3136 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3634.
+Memory consumption went from 138.2 MB to 138.2 MB.
+Total: 3.517600 ms (FindLiveObjects: 0.215100 ms CreateObjectMapping: 0.104400 ms MarkObjects: 3.146500 ms  DeleteObjects: 0.050300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.776 seconds
+Refreshing native plugins compatible for Editor in 6.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.464 seconds
+Domain Reload Profiling: 2232ms
+	BeginReloadAssembly (266ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (84ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (339ms)
+		LoadAssemblies (475ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1464ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (631ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (453ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3136 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3637.
+Memory consumption went from 140.1 MB to 140.1 MB.
+Total: 2.854000 ms (FindLiveObjects: 0.214000 ms CreateObjectMapping: 0.109000 ms MarkObjects: 2.475000 ms  DeleteObjects: 0.054800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.802 seconds
+Refreshing native plugins compatible for Editor in 4.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.436 seconds
+Domain Reload Profiling: 2236ms
+	BeginReloadAssembly (327ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (337ms)
+		LoadAssemblies (505ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1437ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (610ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (431ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 6.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3136 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3640.
+Memory consumption went from 142.1 MB to 142.0 MB.
+Total: 4.073300 ms (FindLiveObjects: 0.316300 ms CreateObjectMapping: 0.325700 ms MarkObjects: 3.369800 ms  DeleteObjects: 0.060100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
