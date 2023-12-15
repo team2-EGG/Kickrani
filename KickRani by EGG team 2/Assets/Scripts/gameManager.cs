@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class gameManager : MonoBehaviour
 {
     public int stamina = 100;
     public GameObject gorani;
     public PlayerController gorani_ctrlScript;
-    public Player_movecontroller gorani_moveScript;
+    public pmc_mobile gorani_moveScript;
     public bool hit_helmet = false;
     public bool hit_star = false;
     public bool hit_bat = false;
@@ -27,6 +28,8 @@ public class gameManager : MonoBehaviour
         gorani_moveScript.speed = 0.0f;
         increase_score = 0;
         gorani_moveScript.death = true;
+
+        SceneManager.LoadScene("Score");
     }
 
     public void getItemHelmet() // Çï¸ä Âø¿ë
@@ -80,7 +83,7 @@ public class gameManager : MonoBehaviour
     {
         gorani = GameObject.FindWithTag("player");
         gorani_ctrlScript = gorani.GetComponent<PlayerController>();
-        gorani_moveScript = gorani.GetComponent<Player_movecontroller>();
+        gorani_moveScript = gorani.GetComponent<pmc_mobile>();
         gorani_col = gorani.GetComponent<CapsuleCollider>();
     }
 

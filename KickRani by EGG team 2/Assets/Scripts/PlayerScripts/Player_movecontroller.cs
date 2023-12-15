@@ -17,8 +17,8 @@ public class Player_movecontroller : MonoBehaviour
     private float duration = 0.6f; // 회전하는데 걸리는 시간 (초)
     private float rotationSpeed; // 초당 회전 속도
     private float currentRotation = 0f; // 현재 회전된 각도
-    public Transform goraTransform;
     public Transform riderTransform;
+    public Transform goraTransform;
     public bool death = false;
     // player go forward
     public float speed = 10f; // 전진 속도
@@ -100,11 +100,6 @@ public class Player_movecontroller : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Q)) // Q키 누르면 다시 원 위치
-        {
-            this.transform.rotation = (Quaternion.Euler(0, -90, 0));
-        }
-
         // 플레이어 전진 관련
         // 전진 방향을 계산 (오브젝트의 앞쪽 방향)
         Vector3 right = transform.right;
@@ -127,7 +122,7 @@ public class Player_movecontroller : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.CompareTag("Ground"))
+        if (other.gameObject.CompareTag("ground"))
         {
             isGrounded = true;
 

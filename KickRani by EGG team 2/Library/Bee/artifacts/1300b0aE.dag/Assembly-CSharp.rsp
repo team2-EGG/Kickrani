@@ -372,6 +372,7 @@
 "Assets/Scripts/gameManager.cs"
 "Assets/Scripts/PlayerScripts/PlayerController.cs"
 "Assets/Scripts/PlayerScripts/Player_movecontroller.cs"
+"Assets/Scripts/PlayerScripts/pmc_mobile.cs"
 "Assets/Scripts/PlayerScripts/wheelSpin.cs"
 "Assets/Scripts/roadgenerator.cs"
 "Assets/Scripts/SceneChange/StartGame.cs"

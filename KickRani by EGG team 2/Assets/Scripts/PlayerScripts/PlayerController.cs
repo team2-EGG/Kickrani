@@ -100,10 +100,12 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.tag == "smallObstacle")
         {
             GM.collideToSmallObstacle();
+            Debug.Log("«√√Êµ ?");
         }
         else if (other.gameObject.tag == "bigObstacle")
         {
             GM.collideToBigObstacle();
+            Debug.Log("«√√Êµ ?");
         }
     }
 }
