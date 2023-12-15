@@ -23,7 +23,7 @@ public class roadgenerator : MonoBehaviour
     public GameObject itemprefab_helmet;
     public GameObject itemprefab_bat;
 
-    void Start()
+    void Awake()
     {
         this.transform.position = Vector3.zero;
         // 오브젝트 풀링

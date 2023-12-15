@@ -13,11 +13,14 @@ TagManager:
   - helmet
   - bat
   - player
+  - smallObstacle
+  - bigObstacle
+  - baker
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - NAV
   - Water
   - UI
   - 

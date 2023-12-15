@@ -12,6 +12,7 @@ public class Baker : MonoBehaviour
     void Start()
     {
         navMeshSurface = this.gameObject.GetComponent<NavMeshSurface>();
+        BakeRoad();
     }
 
     public void BakeRoad()
