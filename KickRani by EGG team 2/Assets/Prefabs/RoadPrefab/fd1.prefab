@@ -515,7 +515,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1936729098691803884, guid: 23728f75e971e0043b62060b4830475a, type: 3}
       propertyPath: m_TagString
-      value: obstacle
+      value: smallObstacle
       objectReference: {fileID: 0}
     - target: {fileID: 3223448144657844479, guid: 23728f75e971e0043b62060b4830475a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2343,7 +2343,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1896770531228788199, guid: 659e49454ad6d8a42aaef01f5e57ae14, type: 3}
       propertyPath: m_TagString
-      value: obstacle
+      value: bigObstacle
       objectReference: {fileID: 0}
     - target: {fileID: 3173339435450554356, guid: 659e49454ad6d8a42aaef01f5e57ae14, type: 3}
       propertyPath: m_LocalPosition.x
