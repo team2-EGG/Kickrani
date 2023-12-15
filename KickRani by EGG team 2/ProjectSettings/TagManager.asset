@@ -7,6 +7,12 @@ TagManager:
   - Ground
   - target
   - RoadGenerator
+  - ground
+  - obstacle
+  - star
+  - helmet
+  - bat
+  - player
   layers:
   - Default
   - TransparentFX

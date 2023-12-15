@@ -17,6 +17,10 @@ public class gameManager : MonoBehaviour
     public float bat_time = 0.0f;
     public CapsuleCollider gorani_col;
 
+    public int score = 0;
+    public float score_time = 0.0f;
+    public int increase_score = 1;
+
 
     public void gameOver()
     {
@@ -30,7 +34,8 @@ public class gameManager : MonoBehaviour
 
     public void getItemBattery() // 일정 시간 동안 점수 두 배
     {
-        // 점수 구현과 연동
+        gorani_ctrlScript.isShield = true;
+        increase_score *= 2;
     }
 
     public void getItemStar() // 일정 시간 동안 충돌 무시, 속도 빠르게
@@ -65,7 +70,15 @@ public class gameManager : MonoBehaviour
     }
 
     void Update()
-    {   
+    {
+        score_time += Time.deltaTime;
+        if (score_time > 1.0)
+        {
+            score += increase_score;
+            score_time = 0;
+            Debug.Log(score);
+        }
+
         if (hit_helmet && gorani_ctrlScript.isHelmet == false)
         {
             getItemHelmet();
@@ -76,9 +89,9 @@ public class gameManager : MonoBehaviour
             getItemStar();
             hit_star = false;
         }
-        if (hit_bat)
+        if (hit_bat && gorani_ctrlScript.isShield == false)
         {
-            Debug.Log("col_bat");
+            getItemBattery();
             hit_bat = false;
         }
 
@@ -105,7 +118,17 @@ public class gameManager : MonoBehaviour
             }
         }
 
-        // 배터리 시간 구현
+        if (gorani_ctrlScript.isShield)
+        {
+            bat_time += Time.deltaTime;
+            Debug.Log(bat_time);
+            if (bat_time > 5.0f)
+            {
+                gorani_ctrlScript.isShield = false;
+                increase_score /= 2;
+                bat_time = 0;
+            }
+        }
     }
 
 }

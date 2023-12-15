@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -480329287914014742}
   m_Layer: 0
   m_Name: PREFAB_Hat_Skater
-  m_TagString: Untagged
+  m_TagString: helmet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
