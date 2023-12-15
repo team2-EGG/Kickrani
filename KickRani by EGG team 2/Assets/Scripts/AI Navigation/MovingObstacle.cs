@@ -11,6 +11,9 @@ public class MovingObstacle : MonoBehaviour
     NavMeshAgent agent;
     public bool A = false;
     public GameObject T;
+    public GameObject B;
+
+    Baker baker;
 
     private Vector3 initialRelativePosition;
 
@@ -20,7 +23,8 @@ public class MovingObstacle : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        target = T.transform;
+        baker = B.GetComponent<Baker>();
         agent = GetComponent<NavMeshAgent>();
         navMeshSurface = this.gameObject.GetComponent<NavMeshSurface>();
         initialRelativePosition = transform.localPosition;
@@ -28,14 +32,14 @@ public class MovingObstacle : MonoBehaviour
 
     void RestoreToInitialState()
     {
+        
         transform.localPosition = initialRelativePosition;
     }
 
     void OnEnable()
     {
-        agent.enabled = true;
-        target = T.transform;
-        navMeshSurface.BuildNavMesh();
+        //agent.enabled = true;
+        baker.BakeRoad();
         agent.SetDestination(target.position);
 
         RestoreToInitialState();
@@ -43,7 +47,7 @@ public class MovingObstacle : MonoBehaviour
 
     private void OnDisable()
     {
-        agent.enabled = false;
+        //agent.enabled = false;
     }
 
     // Update is called once per frame
