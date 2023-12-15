@@ -17,6 +17,8 @@ public class Player_movecontroller : MonoBehaviour
     private float duration = 0.6f; // 회전하는데 걸리는 시간 (초)
     private float rotationSpeed; // 초당 회전 속도
     private float currentRotation = 0f; // 현재 회전된 각도
+    public Transform goraTransform;
+    public Transform riderTransform;
     public bool death = false;
     // player go forward
     public float speed = 10f; // 전진 속도
@@ -37,7 +39,6 @@ public class Player_movecontroller : MonoBehaviour
         rotationSpeed = rotationAmount / duration; // 초당 회전 속도 계산
         originalChildPosition = childObject.localPosition;
         originalChildRotation = childObject.localRotation;
-
     }
 
     void Update()
@@ -88,7 +89,8 @@ public class Player_movecontroller : MonoBehaviour
         if (death)
         {
             float step = rotationSpeed * Time.deltaTime;
-            transform.Rotate(-step, 0, 0);
+            goraTransform.Rotate(0, 0, step);
+            riderTransform.Rotate(step, 0, 0);
             currentRotation += step;
 
             if (currentRotation >= rotationAmount)

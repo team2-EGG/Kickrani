@@ -63,9 +63,6 @@ public class PlayerController : MonoBehaviour
             colorChangeCoroutine = null;
             meshMaterial.color = Color.white; // 색상을 원래대로 설정
         }
-        Debug.Log(isShield);
-        Debug.Log(isHelmet);
-        Debug.Log(isStar);
     }
 
     IEnumerator ChangeColor()
