@@ -43,7 +43,7 @@ public class gameManager : MonoBehaviour
     public void getItemStar() // 일정 시간 동안 충돌 무시, 속도 빠르게
     {
         gorani_ctrlScript.isStar = true;
-        gorani_moveScript.speed = 20.0f;
+        gorani_moveScript.speed *= 2.0f;
     }
 
     public void collideToSmallObstacle()
@@ -130,7 +130,7 @@ public class gameManager : MonoBehaviour
             if (star_time > 5.0f)
             {
                 gorani_ctrlScript.isStar = false;
-                gorani_moveScript.speed = 10.0f;
+                gorani_moveScript.speed /= 2.0f;
                 star_time = 0;
             }
         }
