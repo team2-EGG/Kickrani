@@ -99,7 +99,7 @@ public class Player_movecontroller : MonoBehaviour
             {
                 death = false;
                 currentRotation = 0f;
-                SceneManager.LoadScene("Score");
+                SceneManager.LoadScene("End");
             }
         }
 
