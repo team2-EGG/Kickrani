@@ -8,7 +8,8 @@ public class gameManager : MonoBehaviour
     public int stamina = 100;
     public GameObject gorani;
     public PlayerController gorani_ctrlScript;
-    public pmc_mobile gorani_moveScript;
+    // public pmc_mobile gorani_moveScript;
+    public Player_movecontroller gorani_moveScript;
     public bool hit_helmet = false;
     public bool hit_star = false;
     public bool hit_bat = false;
@@ -20,7 +21,11 @@ public class gameManager : MonoBehaviour
     // 점수쓰
     public int score = 0;
     public float score_time = 0.0f;
-    public int increase_score = 100;
+    public int increase_score = 50;
+
+    // 난이도
+    public int difficulty = 0;
+    public float difficulty_time = 0.0f;
 
 
     public void gameOver()
@@ -28,8 +33,6 @@ public class gameManager : MonoBehaviour
         gorani_moveScript.speed = 0.0f;
         increase_score = 0;
         gorani_moveScript.death = true;
-
-        SceneManager.LoadScene("Score");
     }
 
     public void getItemHelmet() // 헬멧 착용
@@ -83,7 +86,8 @@ public class gameManager : MonoBehaviour
     {
         gorani = GameObject.FindWithTag("player");
         gorani_ctrlScript = gorani.GetComponent<PlayerController>();
-        gorani_moveScript = gorani.GetComponent<pmc_mobile>();
+        // gorani_moveScript = gorani.GetComponent<pmc_mobile>();
+        gorani_moveScript = gorani.GetComponent<Player_movecontroller>();
         gorani_col = gorani.GetComponent<CapsuleCollider>();
     }
 
@@ -93,9 +97,17 @@ public class gameManager : MonoBehaviour
         score_time += Time.deltaTime;
         if (score_time > 1.0)
         {
-            score += increase_score;
+            score += increase_score + (difficulty * 50);
             score_time = 0;
             Debug.Log(score);
+        }
+
+        // 난이도 책정
+        difficulty_time += Time.deltaTime;
+        if (difficulty_time > 5.0)
+        {
+            difficulty += 1;
+            difficulty_time = 0.0f;
         }
 
         // 아이템 충돌 확인 및 현재 아이템 적용여부 확인

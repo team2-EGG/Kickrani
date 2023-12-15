@@ -34,14 +34,17 @@ public class ItemController : MonoBehaviour
         if (myTag == "bat" && other.gameObject.tag == "player")
         {
             GM.hit_bat = true;
+            Destroy(gameObject);
         }
         if (myTag == "star" && other.gameObject.tag == "player")
         {
             GM.hit_star = true;
+            Destroy(gameObject);
         }
         if (myTag == "helmet" && other.gameObject.tag == "player")
         {
             GM.hit_helmet = true;
+            Destroy(gameObject);
         }
     }
 }

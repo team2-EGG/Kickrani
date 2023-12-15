@@ -117,19 +117,19 @@ public class roadgenerator : MonoBehaviour
         if (ranval < 0.1f) // 0과 1 사이의 무작위 수 생성, 10% 확률 체크
         {
             Vector3 ranvec = new Vector3(Random.value * 5, 0, Random.value * 5);
-            Vector3 newvec = RT.transform.position + Vector3.up + ranvec;
+            Vector3 newvec = RT.transform.position + (Vector3.up*2) + ranvec;
             GameObject staritem = Instantiate(itemprefab_star, newvec, Quaternion.identity);
         }
         else if (ranval < 0.6f && ranval > 0.4f) // 0과 1 사이의 무작위 수 생성, 10% 확률 체크
         {
             Vector3 ranvec = new Vector3(Random.value * 5, 0, Random.value * 5);
-            Vector3 newvec = RT.transform.position + Vector3.up + ranvec;
+            Vector3 newvec = RT.transform.position + (Vector3.up * 2) + ranvec;
             GameObject helmetitem = Instantiate(itemprefab_helmet, newvec, Quaternion.identity);
         }
         else if (ranval > 0.9f) // 0과 1 사이의 무작위 수 생성, 10% 확률 체크
         {
             Vector3 ranvec = new Vector3(Random.value * 5, 0, Random.value * 5);
-            Vector3 newvec = RT.transform.position + Vector3.up + ranvec;
+            Vector3 newvec = RT.transform.position + (Vector3.up * 2) + ranvec;
             GameObject batitem = Instantiate(itemprefab_bat, newvec, Quaternion.identity);
         }
 
