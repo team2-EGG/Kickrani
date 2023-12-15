@@ -19,7 +19,9 @@ public class roadgenerator : MonoBehaviour
     public float genTime = 1f;
     public int pullingRoadCode = 0;
 
-    public GameObject itemprefab;
+    public GameObject itemprefab_star;
+    public GameObject itemprefab_helmet;
+    public GameObject itemprefab_bat;
 
     void Start()
     {
@@ -109,13 +111,28 @@ public class roadgenerator : MonoBehaviour
             this.transform.Rotate(0, 90, 0);
         }
 
+        float ranval = Random.value;
 
         // 10% 확률로 아이템 생성
-        if (Random.value < 0.1f) // 0과 1 사이의 무작위 수 생성, 10% 확률 체크
+        if (ranval < 0.1f) // 0과 1 사이의 무작위 수 생성, 10% 확률 체크
         {
-            GameObject item = Instantiate(itemprefab, RT.transform.position + Vector3.up, Quaternion.identity);
-            // 아이템을 도로 타일 위에 위치시킵니다. 필요한 경우 위치를 조정합니다.
+            Vector3 ranvec = new Vector3(Random.value * 5, 0, Random.value * 5);
+            Vector3 newvec = RT.transform.position + Vector3.up + ranvec;
+            GameObject staritem = Instantiate(itemprefab_star, newvec, Quaternion.identity);
         }
+        else if (ranval < 0.6f && ranval > 0.4f) // 0과 1 사이의 무작위 수 생성, 10% 확률 체크
+        {
+            Vector3 ranvec = new Vector3(Random.value * 5, 0, Random.value * 5);
+            Vector3 newvec = RT.transform.position + Vector3.up + ranvec;
+            GameObject helmetitem = Instantiate(itemprefab_helmet, newvec, Quaternion.identity);
+        }
+        else if (ranval > 0.9f) // 0과 1 사이의 무작위 수 생성, 10% 확률 체크
+        {
+            Vector3 ranvec = new Vector3(Random.value * 5, 0, Random.value * 5);
+            Vector3 newvec = RT.transform.position + Vector3.up + ranvec;
+            GameObject batitem = Instantiate(itemprefab_bat, newvec, Quaternion.identity);
+        }
+
 
         // 이동
         this.transform.position += this.transform.right * chunkSize;

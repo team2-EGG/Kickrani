@@ -23,7 +23,7 @@ m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/jun00/OneDrive/Desktop/Git_repos/Kickrani/KickRani by EGG
   team 2/Packages
-m_EditorVersion: 2022.3.13f1 (5f90a5ebde0f)
+m_EditorVersion: 2022.3.15f1 (b58023a2b463)
 m_ResolvedPackages:
 - packageId: com.unity.ai.navigation@1.1.5
   testable: 0

@@ -7,7 +7,7 @@ public class gameManager : MonoBehaviour
     public int stamina = 100;
     public GameObject gorani;
     public PlayerController gorani_ctrlScript;
-    public Player_movecontroller gorani_moveScript;
+    public pmc_mobile gorani_moveScript;
     public bool hit_helmet = false;
     public bool hit_star = false;
     public bool hit_bat = false;
@@ -80,7 +80,7 @@ public class gameManager : MonoBehaviour
     {
         gorani = GameObject.FindWithTag("player");
         gorani_ctrlScript = gorani.GetComponent<PlayerController>();
-        gorani_moveScript = gorani.GetComponent<Player_movecontroller>();
+        gorani_moveScript = gorani.GetComponent<pmc_mobile>();
         gorani_col = gorani.GetComponent<CapsuleCollider>();
     }
 
