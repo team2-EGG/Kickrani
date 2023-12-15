@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class gameManager : MonoBehaviour
 {
@@ -22,6 +23,7 @@ public class gameManager : MonoBehaviour
     public int score = 0;
     public float score_time = 0.0f;
     public int increase_score = 50;
+    public Text ScoreText;
 
     // ≥≠¿Ãµµ
     public int difficulty = 0;
