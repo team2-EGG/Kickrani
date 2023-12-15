@@ -9,27 +9,18 @@ public class PlayerController : MonoBehaviour
     public bool isShield = false;
     public bool isHelmet = false;
     public bool isStar = false;
+
     Transform Shield;
     Transform Helmet;
     Material meshMaterial;
     Coroutine colorChangeCoroutine;
 
+    public gameManager GM;
+
     void Start()
     {
-        
-        if (Shield == null)
-            Debug.LogError("Shield 오브젝트를 찾을 수 없습니다.");
-
-        if (Helmet == null)
-            Debug.LogError("Helmet 오브젝트를 찾을 수 없습니다.");
-
+        GM = GameObject.Find("GameManager").GetComponent<gameManager>();
         Transform goraTransform = transform.Find("gora");
-        if (goraTransform == null)
-        {
-            Debug.LogError("gora 오브젝트를 찾을 수 없습니다.");
-            return;
-        }
-
         Shield = goraTransform.Find("Shield");
         Helmet = goraTransform.Find("MESH_Hat_Skater");
         Transform meshTransform = goraTransform.Find("Mesh");
@@ -51,13 +42,11 @@ public class PlayerController : MonoBehaviour
         if (Shield != null)
         {
             Shield.localScale = isShield ? ShieldSize : Vector3.zero;
-            Debug.Log(isShield ? "실드 활성화됨" : "실드 비활성화됨");
         }
 
         if (Helmet != null)
         {
             Helmet.localScale = isHelmet ? Vector3.one : Vector3.zero;
-            Debug.Log(isHelmet ? "헬멧 활성화됨" : "헬멧 비활성화됨");
         }
 
         if (isStar && meshMaterial != null && colorChangeCoroutine == null)
@@ -99,5 +88,18 @@ public class PlayerController : MonoBehaviour
         color.g *= brightnessFactor;
         color.b *= brightnessFactor;
         return color;
+    }
+
+    // 장애물 충돌 감지
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "smallobstacle")
+        {
+            GM.collideToSmallObstacle();
+        }
+        else if (other.gameObject.tag == "largeobstacle")
+        {
+            GM.collideToBigObstacle();
+        }
     }
 }

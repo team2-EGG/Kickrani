@@ -16,18 +16,19 @@ public class ItemController : MonoBehaviour
         myTag = gameObject.tag;
     }
 
-    // Update is called once per frame
+    // Update is called once per frame  
     void Update()
     {
         life_time -= Time.deltaTime;
 
+        /*
         if (life_time < 0)
         {
             Destroy(gameObject);
         }
+        */
     }
 
-    // 충돌 감지시 행동
     private void OnTriggerEnter(Collider other)
     {
         if (myTag == "bat" && other.gameObject.tag == "player")

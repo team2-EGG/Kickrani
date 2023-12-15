@@ -17,13 +17,13 @@ public class Player_movecontroller : MonoBehaviour
     private float duration = 0.6f; // 회전하는데 걸리는 시간 (초)
     private float rotationSpeed; // 초당 회전 속도
     private float currentRotation = 0f; // 현재 회전된 각도
-    private bool isRotating = false; // 회전 중인지 확인
+    public bool death = false;
     // player go forward
     public float speed = 10f; // 전진 속도
     // player jump
     public float jumpForce = 10f;
     public Transform childObject;
-    private bool isGrounded = true;
+    private bool isGrounded;
     private Vector3 originalChildPosition;
     private Quaternion originalChildRotation;
     // 공중에 떠 있을 때 적용할 위치와 회전값
@@ -83,14 +83,9 @@ public class Player_movecontroller : MonoBehaviour
         }
 
         // 플레이어 사망 관련
-        // 'R' 키를 눌러 회전 시작
-        if (Input.GetKeyDown(KeyCode.R) && !isRotating)
-        {
-            isRotating = true;
-        }
-
+  
         // 회전 로직
-        if (isRotating)
+        if (death)
         {
             float step = rotationSpeed * Time.deltaTime;
             transform.Rotate(-step, 0, 0);
@@ -98,12 +93,12 @@ public class Player_movecontroller : MonoBehaviour
 
             if (currentRotation >= rotationAmount)
             {
-                isRotating = false;
+                death = false;
                 currentRotation = 0f;
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Q) && !isRotating) // Q키 누르면 다시 원 위치
+        if (Input.GetKeyDown(KeyCode.Q)) // Q키 누르면 다시 원 위치
         {
             this.transform.rotation = (Quaternion.Euler(0, -90, 0));
         }

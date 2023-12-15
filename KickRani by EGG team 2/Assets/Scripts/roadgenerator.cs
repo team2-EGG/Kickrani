@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class roadgenerator : MonoBehaviour
 {
-    public GameObject baker;
-    Baker bk;
     public GameObject[] roadTiles;
     public int[] roadCodes;
     public GameObject Fd = null;
@@ -21,7 +19,6 @@ public class roadgenerator : MonoBehaviour
     void Start()
     {
         this.transform.position = Vector3.zero;
-        bk = baker.GetComponent<Baker>(); ;
         // 오브젝트 풀링
         roadTiles = new GameObject[50];
         roadCodes = new int[50];
@@ -86,7 +83,6 @@ public class roadgenerator : MonoBehaviour
             this.transform.Rotate(0, 90, 0);
         }
 
-        bk.BakeRoad();
 
         // 10% 확률로 아이템 생성
         if (Random.value < 0.1f) // 0과 1 사이의 무작위 수 생성, 10% 확률 체크

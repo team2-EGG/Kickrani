@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028359, g: 0.22571385, b: 0.30692258, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -229,7 +229,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc30ffa1764261b4297ca78d3a1bab8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wearingHelmet: 0
   stamina: 100
   gorani: {fileID: 0}
   gorani_ctrlScript: {fileID: 0}
@@ -275,7 +274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &268432668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -288,17 +287,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ffb87c38b0cfbf4184b78ea15efd786, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baker: {fileID: 86107148}
   roadTiles: []
   roadCodes: 
   Fd: {fileID: 2804298338117499755, guid: 2a937a5ee62ff5f47aa968c243cdd829, type: 3}
-  Left: {fileID: 5070455806815327243, guid: 6635c36dc4bd7ce4fa8da73dc55d82e6, type: 3}
-  Right: {fileID: 5060059329593202988, guid: 3857fd534da0a604992968130dec3137, type: 3}
+  Left: {fileID: 8889135567035374707, guid: f87190cc4060b124daf62f9f172b4733, type: 3}
+  Right: {fileID: 631620295007933255, guid: 76fc6d4396b5c42478e11a162902528a, type: 3}
   genroadcode: 0
   chunkSize: 52
   genTime: 1
   pullingRoadCode: 0
-  itemprefab: {fileID: 0}
+  itemprefab: {fileID: 5148948368542526678, guid: 8e003d8d71068fd47b9cdecd8a1ead4b, type: 3}
 --- !u!4 &268432669
 Transform:
   m_ObjectHideFlags: 0
@@ -886,6 +884,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 104
   turnSpeed: 500
+  death: 0
   speed: 1
   jumpForce: 10
   childObject: {fileID: 796035945}
@@ -905,6 +904,7 @@ MonoBehaviour:
   isShield: 0
   isHelmet: 0
   isStar: 0
+  GM: {fileID: 0}
 --- !u!4 &1360488360 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8228913705735438437, guid: c3f2a7c6cec0ee4489566573b88d0920, type: 3}

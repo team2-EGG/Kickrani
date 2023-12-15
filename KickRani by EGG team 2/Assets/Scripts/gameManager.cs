@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class gameManager : MonoBehaviour
 {
-    public bool wearingHelmet = false;
     public int stamina = 100;
     public GameObject gorani;
     public PlayerController gorani_ctrlScript;
@@ -17,14 +16,17 @@ public class gameManager : MonoBehaviour
     public float bat_time = 0.0f;
     public CapsuleCollider gorani_col;
 
+    // 점수쓰
     public int score = 0;
     public float score_time = 0.0f;
-    public int increase_score = 1;
+    public int increase_score = 100;
 
 
     public void gameOver()
     {
-        
+        gorani_moveScript.speed = 0.0f;
+        increase_score = 0;
+        gorani_moveScript.death = true;
     }
 
     public void getItemHelmet() // 헬멧 착용
@@ -46,9 +48,14 @@ public class gameManager : MonoBehaviour
 
     public void collideToSmallObstacle()
     {
-        if (gorani_ctrlScript.isHelmet)
+        Debug.Log("작은거 되냐?");
+        if (gorani_ctrlScript.isStar)
         {
-
+            
+        }
+        else if (gorani_ctrlScript.isHelmet)
+        {
+            gorani_ctrlScript.isHelmet = false;
         }
         else
         {
@@ -58,7 +65,15 @@ public class gameManager : MonoBehaviour
 
     public void collideToBigObstacle()
     {
-        gameOver();
+        Debug.Log("큰거 되냐?");
+        if (gorani_ctrlScript.isStar)
+        {
+
+        }
+        else
+        {
+            gameOver();
+        }
     }
 
     void Start()
@@ -71,6 +86,7 @@ public class gameManager : MonoBehaviour
 
     void Update()
     {
+        // 점수 책정
         score_time += Time.deltaTime;
         if (score_time > 1.0)
         {
@@ -79,6 +95,7 @@ public class gameManager : MonoBehaviour
             Debug.Log(score);
         }
 
+        // 아이템 충돌 확인 및 현재 아이템 적용여부 확인
         if (hit_helmet && gorani_ctrlScript.isHelmet == false)
         {
             getItemHelmet();
@@ -95,21 +112,21 @@ public class gameManager : MonoBehaviour
             hit_bat = false;
         }
 
+        // 적용시간 끝나면 하는 것
+        /* 헬멧 시간 임시
         if (gorani_ctrlScript.isHelmet)
         {
             helmet_time += Time.deltaTime;
-            Debug.Log(helmet_time);
             if (helmet_time > 5.0f)
             {
                 gorani_ctrlScript.isHelmet = false;
                 helmet_time = 0;
             }
         }
-
+        */
         if (gorani_ctrlScript.isStar)
         {
             star_time += Time.deltaTime;
-            Debug.Log(star_time);
             if (star_time > 5.0f)
             {
                 gorani_ctrlScript.isStar = false;
@@ -117,11 +134,9 @@ public class gameManager : MonoBehaviour
                 star_time = 0;
             }
         }
-
         if (gorani_ctrlScript.isShield)
         {
             bat_time += Time.deltaTime;
-            Debug.Log(bat_time);
             if (bat_time > 5.0f)
             {
                 gorani_ctrlScript.isShield = false;
@@ -130,5 +145,14 @@ public class gameManager : MonoBehaviour
             }
         }
     }
+
+
+
+
+
+
+
+
+
 
 }
