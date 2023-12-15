@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class pmc_mobile : MonoBehaviour
 {
@@ -37,9 +38,12 @@ public class pmc_mobile : MonoBehaviour
     private Vector2 touchDif;
     public float sensitive = 0.7f;
 
+    public gameManager GM;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        GM = GameObject.Find("GameManager").GetComponent<gameManager>();
         rotationSpeed = rotationAmount / duration; // 초당 회전 속도 계산
         originalChildPosition = childObject.localPosition;
         originalChildRotation = childObject.localRotation;
@@ -122,6 +126,7 @@ public class pmc_mobile : MonoBehaviour
             {
                 death = false;
                 currentRotation = 0f;
+                SceneManager.LoadScene("End");
             }
         }
 
@@ -129,6 +134,7 @@ public class pmc_mobile : MonoBehaviour
         // 플레이어 전진 관련
         // 전진 방향을 계산 (오브젝트의 앞쪽 방향)
         Vector3 right = transform.right;
+        speed = 20 + (GM.difficulty - 1) * 2;
 
         // 리지드바디를 사용하여 오브젝트를 전진시킴
         rb.MovePosition(rb.position + right * speed * Time.fixedDeltaTime);
