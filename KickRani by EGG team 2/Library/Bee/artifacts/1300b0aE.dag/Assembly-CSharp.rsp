@@ -365,6 +365,7 @@
 "Assets/gorani_file/Quirky Series Ultimate/_Scripts/Demo.cs"
 "Assets/Items/AnimationScript.cs"
 "Assets/Items/ItemController.cs"
+"Assets/Prefabs/RoadPrefab/BreakRoadTile.cs"
 "Assets/Scripts/AI Navigation/Baker.cs"
 "Assets/Scripts/AI Navigation/MovingObstacle.cs"
 "Assets/Scripts/AI Navigation/Target.cs"

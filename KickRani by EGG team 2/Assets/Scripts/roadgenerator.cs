@@ -79,12 +79,17 @@ public class roadgenerator : MonoBehaviour
             roadTile.SetActive(false);
         }
 
-        StartCoroutine(roadPulling());
+        //StartCoroutine(roadPulling());
+        for (int i= 0; i < 7; i++)
+        {
+            roadPulling();
+        }
+        
     }
 
     //genTime마다 길 타일 하나씩 생성. 길 프리팹 추가시 퍼블릭 게임오브젝트와 스위치문 추가하면 됨 
 
-    IEnumerator roadPulling()
+    public void roadPulling()
     {
         GameObject RT = roadTiles[pullingRoadCode];
         
@@ -115,17 +120,16 @@ public class roadgenerator : MonoBehaviour
         // 이동
         this.transform.position += this.transform.right * chunkSize;
 
-        yield return new WaitForSeconds(genTime);
+        //yield return new WaitForSeconds(genTime);
 
         // 비활성화 상태로 만들어 재사용을 위해 준비
         
 
         pullingRoadCode++;
         pullingRoadCode %= 50;
-        StartCoroutine(roadPulling());
+        //StartCoroutine(roadPulling());
 
-        yield return new WaitForSeconds(5);
-        RT.SetActive(false);
+        
     }
 
 }
