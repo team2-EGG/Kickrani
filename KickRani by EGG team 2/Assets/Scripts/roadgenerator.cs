@@ -16,6 +16,8 @@ public class roadgenerator : MonoBehaviour
     public float genTime = 1f;
     public int pullingRoadCode = 0;
 
+    public GameObject itemprefab;
+
     void Start()
     {
         this.transform.position = Vector3.zero;
@@ -85,6 +87,13 @@ public class roadgenerator : MonoBehaviour
         }
 
         bk.BakeRoad();
+
+        // 10% 확률로 아이템 생성
+        if (Random.value < 0.1f) // 0과 1 사이의 무작위 수 생성, 10% 확률 체크
+        {
+            GameObject item = Instantiate(itemprefab, RT.transform.position + Vector3.up, Quaternion.identity);
+            // 아이템을 도로 타일 위에 위치시킵니다. 필요한 경우 위치를 조정합니다.
+        }
 
         // 이동
         this.transform.position += this.transform.right * chunkSize;
