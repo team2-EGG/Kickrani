@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028359, g: 0.22571385, b: 0.30692258, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -469,7 +469,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &268432668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -484,9 +484,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roadTiles: []
   roadCodes: 
-  Fd: {fileID: 2804298338117499755, guid: 2a937a5ee62ff5f47aa968c243cdd829, type: 3}
+  Fd1: {fileID: 4888520679110382135, guid: 6e49a47f5c11a964c81875b556eb7f63, type: 3}
+  Fd2: {fileID: 4888520679110382135, guid: 27293ab7205e1a149b5a5a85a8d71b1d, type: 3}
+  Fd3: {fileID: 1514259620428109966, guid: 3fad79a2e303a364b9fc2fe361fa7222, type: 3}
+  Fd4: {fileID: 5808334131367158522, guid: 412535ddb62c88e4180b66ff0c388310, type: 3}
+  Fd5: {fileID: 510502182732380808, guid: 21ec91f2a5214a54d8cb9141dad0442b, type: 3}
   Left: {fileID: 8889135567035374707, guid: f87190cc4060b124daf62f9f172b4733, type: 3}
-  Right: {fileID: 631620295007933255, guid: 76fc6d4396b5c42478e11a162902528a, type: 3}
+  Right1: {fileID: 2993607724183642506, guid: f4e2739e1617e014d97e400d6322b651, type: 3}
+  Right2: {fileID: 631620295007933255, guid: 76fc6d4396b5c42478e11a162902528a, type: 3}
   genroadcode: 0
   chunkSize: 52
   genTime: 1
@@ -876,6 +881,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 100
   turnSpeed: 500
+  goraTransform: {fileID: 0}
+  riderTransform: {fileID: 0}
   death: 0
   speed: 1
   jumpForce: 10

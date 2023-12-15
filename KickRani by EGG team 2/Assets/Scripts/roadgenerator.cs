@@ -6,9 +6,14 @@ public class roadgenerator : MonoBehaviour
 {
     public GameObject[] roadTiles;
     public int[] roadCodes;
-    public GameObject Fd = null;
+    public GameObject Fd1 = null;
+    public GameObject Fd2 = null;
+    public GameObject Fd3 = null;
+    public GameObject Fd4 = null;
+    public GameObject Fd5 = null;
     public GameObject Left = null;
-    public GameObject Right = null;
+    public GameObject Right1 = null;
+    public GameObject Right2 = null;
     public int genroadcode = 0;
     public float chunkSize = 52;
     public float genTime = 1f;
@@ -29,7 +34,7 @@ public class roadgenerator : MonoBehaviour
             
             while (true)
             {
-                randomNumber = random.Next(0, 3);
+                randomNumber = random.Next(0, 8);
                 roadCodes[i] = randomNumber;
                 if (randomNumber != genroadcode)
                 {
@@ -42,13 +47,29 @@ public class roadgenerator : MonoBehaviour
             switch (randomNumber)
             {
                 case 0:
-                    roadTile = Instantiate(Fd);
+                    roadTile = Instantiate(Fd1);
                     break;
                 case 1:
                     roadTile = Instantiate(Left);
                     break;
                 case 2:
-                    roadTile = Instantiate(Right);
+                    roadTile = Instantiate(Right1);
+                    break;
+                case 3:
+                    roadTile = Instantiate(Fd2);
+                    break;
+
+                case 4:
+                    roadTile = Instantiate(Fd3);
+                    break;
+                case 5:
+                    roadTile = Instantiate(Fd4);
+                    break;
+                case 6:
+                    roadTile = Instantiate(Fd5);
+                    break;
+                case 7:
+                    roadTile = Instantiate(Right2);
                     break;
                 default:
                     break;
@@ -78,7 +99,7 @@ public class roadgenerator : MonoBehaviour
         {
             this.transform.Rotate(0, -90, 0);
         }
-        if (roadCodes[pullingRoadCode] == 2)
+        if (roadCodes[pullingRoadCode] == 2 || roadCodes[pullingRoadCode] == 7)
         {
             this.transform.Rotate(0, 90, 0);
         }
