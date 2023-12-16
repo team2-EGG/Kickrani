@@ -44,13 +44,11 @@ public class PlayerController : MonoBehaviour
         if (Shield != null)
         {
             Shield.localScale = isShield ? ShieldSize : Vector3.zero;
-            Debug.Log("없음1");
         }
 
         if (Helmet != null)
         {
             Helmet.localScale = isHelmet ? Vector3.one : Vector3.zero;
-            Debug.Log("없음2");
         }
 
         if (isStar && meshMaterial != null && colorChangeCoroutine == null)

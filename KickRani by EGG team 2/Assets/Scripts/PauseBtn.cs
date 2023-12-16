@@ -7,8 +7,22 @@ public class PauseBtn : MonoBehaviour
     bool running = true;
     public Image targetImage;
 
+    public gameManager GM;
+    public GameObject gorani;
+    public PlayerController gorani_ctrlScript;
+    public pmc_mobile gorani_moveScript;
+
+    public float tmp_speed;
+
+    public AudioSource sound;
+
     void Start()
     {
+        GM = GameObject.Find("GameManager").GetComponent<gameManager>();
+        gorani = GameObject.FindWithTag("player");
+        gorani_ctrlScript = gorani.GetComponent<PlayerController>();
+        gorani_moveScript = gorani.GetComponent<pmc_mobile>();
+        sound = GetComponent<AudioSource>();
         // ÃÊ±â¿¡ ÀÌ¹ÌÁö¸¦ ¼û±è
         if (targetImage != null)
         {
@@ -24,15 +38,23 @@ public class PauseBtn : MonoBehaviour
             //¸ØÃß±â
             if (targetImage != null)
             {
+                gorani_moveScript.pauseval = 0.0f;
+                GM.pauseval = 0;
                 targetImage.gameObject.SetActive(!targetImage.gameObject.activeSelf);
+                Debug.Log("¸ØÃç¶ù!");
             }
             running = false;
+            sound.Play();
         }
         else
         {
             //¸ØÃß´Â°Å Ç®±â
             targetImage.gameObject.SetActive(!targetImage.gameObject.activeSelf);
             running = true;
+            sound.Play();
+
+            GM.pauseval = 1;
+            gorani_moveScript.pauseval = 1.0f;
         }
         
     }

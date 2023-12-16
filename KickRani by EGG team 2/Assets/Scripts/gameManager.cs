@@ -33,14 +33,16 @@ public class gameManager : MonoBehaviour
     // 난이도
     public int difficulty = 0;
     public float difficulty_time = 0.0f;
+    public int pauseval = 1;
 
     // 오디오
     public AudioSource[] gameSound;
 
     public void gameOver()
     {
-        gorani_moveScript.speed = 0.0f;
-        increase_score = 0;
+        gorani_moveScript.pauseval = 0.0f;
+        // increase_score = 0;
+        pauseval = 0;
         gorani_moveScript.death = true;
         DataHolder.SomeValue = score;
     }
@@ -109,7 +111,7 @@ public class gameManager : MonoBehaviour
         score_time += Time.deltaTime;
         if (score_time > 1.0)
         {
-            score += increase_score + (difficulty * 50);
+            score += (increase_score + (difficulty * 50)) * pauseval;
             score_time = 0;
             Debug.Log(score);
         }
@@ -120,7 +122,7 @@ public class gameManager : MonoBehaviour
         difficulty_time += Time.deltaTime;
         if (difficulty_time > 5.0)
         {
-            difficulty += 1;
+            difficulty += 1 * pauseval;
             difficulty_time = 0.0f;
         }
 

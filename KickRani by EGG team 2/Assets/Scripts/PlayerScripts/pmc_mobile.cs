@@ -42,6 +42,9 @@ public class pmc_mobile : MonoBehaviour
 
     public AudioSource[] gameSound;
 
+    public float pauseval = 1.0f;
+
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -54,7 +57,7 @@ public class pmc_mobile : MonoBehaviour
 
     void Update()
     {
-        float tiltX = Input.acceleration.x;
+        float tiltX = Input.acceleration.x * pauseval;
 
         // 좌우 입력에 따라 위나 아래로 이동
         Vector3 movementDirection = (tiltX > 0) ? -transform.forward : transform.forward;
@@ -138,10 +141,10 @@ public class pmc_mobile : MonoBehaviour
         // 플레이어 전진 관련
         // 전진 방향을 계산 (오브젝트의 앞쪽 방향)
         Vector3 right = transform.right;
-        speed = 20 + (GM.difficulty - 1) * 2;
+        speed = (20 + (GM.difficulty - 1) * 2) * pauseval;
 
         // 리지드바디를 사용하여 오브젝트를 전진시킴
-        rb.MovePosition(rb.position + right * speed * Time.fixedDeltaTime);
+        rb.MovePosition(rb.position + right * speed * Time.deltaTime);
 
         // 플레이어 점프 관련
         if (touchDif.y > 0 && Mathf.Abs(touchDif.y) > Mathf.Abs(touchDif.x) && isGrounded)
