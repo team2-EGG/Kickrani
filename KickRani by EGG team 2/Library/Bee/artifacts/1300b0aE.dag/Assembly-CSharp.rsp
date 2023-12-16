@@ -371,6 +371,7 @@
 "Assets/Scripts/AI Navigation/MovingObstacle.cs"
 "Assets/Scripts/AI Navigation/Target.cs"
 "Assets/Scripts/gameManager.cs"
+"Assets/Scripts/PauseBtn.cs"
 "Assets/Scripts/PlayerScripts/PlayerController.cs"
 "Assets/Scripts/PlayerScripts/Player_movecontroller.cs"
 "Assets/Scripts/PlayerScripts/pmc_mobile.cs"
