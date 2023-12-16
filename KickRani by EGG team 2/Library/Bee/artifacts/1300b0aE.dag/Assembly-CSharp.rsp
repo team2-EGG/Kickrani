@@ -379,7 +379,9 @@
 "Assets/Scripts/SceneChange/StartGame.cs"
 "Assets/Scripts/SceneChange/ToScore.cs"
 "Assets/Scripts/SceneChange/ToTile.cs"
+"Assets/Scripts/Score/NameSave.cs"
 "Assets/Scripts/Score/ScoreManager.cs"
+"Assets/Scripts/Score/ScorePrint.cs"
 "Assets/Scripts/Score/ScoreSaveButton.cs"
 -langversion:9.0
 
