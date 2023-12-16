@@ -40,6 +40,8 @@ public class pmc_mobile : MonoBehaviour
 
     public gameManager GM;
 
+    public AudioSource[] gameSound;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -47,6 +49,7 @@ public class pmc_mobile : MonoBehaviour
         rotationSpeed = rotationAmount / duration; // 초당 회전 속도 계산
         originalChildPosition = childObject.localPosition;
         originalChildRotation = childObject.localRotation;
+        gameSound = GetComponents<AudioSource>();
     }
 
     void Update()
@@ -83,14 +86,14 @@ public class pmc_mobile : MonoBehaviour
             turnActive = true;
             direction = 1;
             touchDif = Vector3.zero;
-            
+            gameSound[1].Play();
         }
         else if (touchDif.x < 0 && Mathf.Abs(touchDif.x) > Mathf.Abs(touchDif.y) && turnActive == false)
         {
             turnActive = true;
             direction = -1;
             touchDif = Vector3.zero;
-
+            gameSound[1].Play();
         }
 
         if (turnActive == true)
@@ -124,6 +127,7 @@ public class pmc_mobile : MonoBehaviour
 
             if (currentRotation >= rotationAmount)
             {
+                gameSound[2].Play();
                 death = false;
                 currentRotation = 0f;
                 SceneManager.LoadScene("End");
@@ -145,6 +149,7 @@ public class pmc_mobile : MonoBehaviour
             rb.AddForce(0, jumpForce, 0, ForceMode.Impulse);
             isGrounded = false;
 
+            gameSound[0].Play();
             // 위치 및 회전 변경
             childObject.localPosition = tempPosition;
             childObject.localRotation = tempRotation;

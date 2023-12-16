@@ -476,7 +476,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6356175998332400247, guid: 8e4df15547442b54292fc9c65e470ed3, type: 3}
       propertyPath: m_TagString
-      value: bigObstacle
+      value: smallObstacle
       objectReference: {fileID: 0}
     - target: {fileID: 7957567780249763940, guid: 8e4df15547442b54292fc9c65e470ed3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -550,8 +550,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.3197267, y: 1.5536194, z: 4.843784}
-  m_Center: {x: 0.0018297447, y: 1.0175476, z: -1.5360137}
+  m_Size: {x: 1.9262562, y: 1.2983418, z: 4.585917}
+  m_Center: {x: 0.02229174, y: 0.8899088, z: -1.664947}
 --- !u!4 &7556189928245243951 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7957567780249763940, guid: 8e4df15547442b54292fc9c65e470ed3, type: 3}
@@ -1936,7 +1936,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5503427991355362447, guid: 15e97a5a9bd435a4899da14d4a2189e0, type: 3}
       propertyPath: m_TagString
-      value: bigObstacle
+      value: smallObstacle
       objectReference: {fileID: 0}
     - target: {fileID: 8807707444453801628, guid: 15e97a5a9bd435a4899da14d4a2189e0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2010,8 +2010,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.3197262, y: 1.5536194, z: 4.843783}
-  m_Center: {x: 0.0018658647, y: 1.0175476, z: -1.5359805}
+  m_Size: {x: 1.8053879, y: 1.1954632, z: 4.2190394}
+  m_Center: {x: 0.15652913, y: 0.8384695, z: -1.5936776}
 --- !u!4 &4492887757004006302 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8807707444453801628, guid: 15e97a5a9bd435a4899da14d4a2189e0, type: 3}

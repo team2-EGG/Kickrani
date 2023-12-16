@@ -9,8 +9,8 @@ public class gameManager : MonoBehaviour
     public int stamina = 100;
     public GameObject gorani;
     public PlayerController gorani_ctrlScript;
-    // public pmc_mobile gorani_moveScript;
-    public Player_movecontroller gorani_moveScript;
+    public pmc_mobile gorani_moveScript;
+    // public Player_movecontroller gorani_moveScript;
     public bool hit_helmet = false;
     public bool hit_star = false;
     public bool hit_bat = false;
@@ -34,6 +34,8 @@ public class gameManager : MonoBehaviour
     public int difficulty = 0;
     public float difficulty_time = 0.0f;
 
+    // 오디오
+    public AudioSource[] gameSound;
 
     public void gameOver()
     {
@@ -69,6 +71,7 @@ public class gameManager : MonoBehaviour
         }
         else if (gorani_ctrlScript.isHelmet)
         {
+            gameSound[3].Play();
             gorani_ctrlScript.isHelmet = false;
         }
         else
@@ -94,9 +97,10 @@ public class gameManager : MonoBehaviour
     {
         gorani = GameObject.FindWithTag("player");
         gorani_ctrlScript = gorani.GetComponent<PlayerController>();
-        // gorani_moveScript = gorani.GetComponent<pmc_mobile>();
-        gorani_moveScript = gorani.GetComponent<Player_movecontroller>();
+        gorani_moveScript = gorani.GetComponent<pmc_mobile>();
+        // gorani_moveScript = gorani.GetComponent<Player_movecontroller>();
         gorani_col = gorani.GetComponent<CapsuleCollider>();
+        gameSound = GetComponents<AudioSource>();
     }
 
     void Update()
@@ -123,16 +127,19 @@ public class gameManager : MonoBehaviour
         // 아이템 충돌 확인 및 현재 아이템 적용여부 확인
         if (hit_helmet && gorani_ctrlScript.isHelmet == false)
         {
+            gameSound[2].Play();
             getItemHelmet();
             hit_helmet = false;
         }
         if (hit_star && gorani_ctrlScript.isStar == false)
         {
+            gameSound[1].Play();
             getItemStar();
             hit_star = false;
         }
         if (hit_bat && gorani_ctrlScript.isShield == false)
         {
+            gameSound[2].Play();
             getItemBattery();
             hit_bat = false;
         }

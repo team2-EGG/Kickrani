@@ -4,20 +4,23 @@ ScriptsOnlyBuild:
     - AnimationScript
     - Baker
     - BreakRoadTile
+    - End_score
     - ItemController
     - MovingObstacle
     - PlayerController
     - Player_movecontroller
     - ScoreManager
     - ShieldCollision
+    - StartGame
     - Target
+    - ToScore
+    - ToTitle
     - gameManager
     - pmc_mobile
     - roadgenerator
     - wheelSpin
     Unity.AI.Navigation.Editor.dll:
     - Unity.AI.Navigation.Editor.NavMeshAssetManager
-    - Unity.AI.Navigation.Editor.NavigationWindow
     Unity.AI.Navigation.dll:
     - Unity.AI.Navigation.NavMeshSurface
     Unity.Rider.Editor.dll:
@@ -29,17 +32,218 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   serializedClasses:
     UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
     UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-  methodsToPreserve: []
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.SpriteState
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: StartGame
+    methodName: StartBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: ToScore
+    methodName: ToScoreBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: ToTitle
+    methodName: ToTitleBtn
   sceneClasses:
+    Assets/Scenes/End.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16620}
+    - Class: 114
+      Script: {instanceID: 17680}
+    - Class: 114
+      Script: {instanceID: 17884}
+    - Class: 114
+      Script: {instanceID: 18170}
+    - Class: 114
+      Script: {instanceID: 20392}
+    - Class: 114
+      Script: {instanceID: 20692}
+    - Class: 114
+      Script: {instanceID: 21160}
+    - Class: 114
+      Script: {instanceID: 22006}
+    - Class: 114
+      Script: {instanceID: 22954}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Main.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16620}
+    - Class: 114
+      Script: {instanceID: 16956}
+    - Class: 114
+      Script: {instanceID: 17884}
+    - Class: 114
+      Script: {instanceID: 18170}
+    - Class: 114
+      Script: {instanceID: 18516}
+    - Class: 114
+      Script: {instanceID: 18588}
+    - Class: 114
+      Script: {instanceID: 20392}
+    - Class: 114
+      Script: {instanceID: 21992}
+    - Class: 114
+      Script: {instanceID: 22954}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Score.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16620}
+    - Class: 114
+      Script: {instanceID: 17680}
+    - Class: 114
+      Script: {instanceID: 17884}
+    - Class: 114
+      Script: {instanceID: 18170}
+    - Class: 114
+      Script: {instanceID: 18876}
+    - Class: 114
+      Script: {instanceID: 19652}
+    - Class: 114
+      Script: {instanceID: 20392}
+    - Class: 114
+      Script: {instanceID: 21160}
+    - Class: 114
+      Script: {instanceID: 22954}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/Shin.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -66,6 +270,10 @@ ScriptsOnlyBuild:
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -94,6 +302,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17884}
     - Class: 114
+      Script: {instanceID: 18170}
+    - Class: 114
       Script: {instanceID: 18516}
     - Class: 114
       Script: {instanceID: 18588}
@@ -112,11 +322,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20392}
     - Class: 114
-      Script: {instanceID: 21158}
+      Script: {instanceID: 21160}
     - Class: 114
-      Script: {instanceID: 21990}
+      Script: {instanceID: 21992}
     - Class: 114
-      Script: {instanceID: 22302}
+      Script: {instanceID: 22304}
+    - Class: 114
+      Script: {instanceID: 22954}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -132,6 +344,65 @@ ScriptsOnlyBuild:
     - Class: 195
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Title.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16620}
+    - Class: 114
+      Script: {instanceID: 17680}
+    - Class: 114
+      Script: {instanceID: 17884}
+    - Class: 114
+      Script: {instanceID: 18170}
+    - Class: 114
+      Script: {instanceID: 20392}
+    - Class: 114
+      Script: {instanceID: 20794}
+    - Class: 114
+      Script: {instanceID: 21160}
+    - Class: 114
+      Script: {instanceID: 22954}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -202,7 +473,7 @@ ScriptsOnlyBuild:
     className: PlayerController
   - hash:
       serializedVersion: 2
-      Hash: 132a4bcd06e9e0e3294cf1d1a1295547
+      Hash: 89f3e76ea2493571f9d4b1cabd622196
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: pmc_mobile
@@ -250,7 +521,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: be8ee608556ba81e20b0e4afcb3825c9
+      Hash: 953ec8a0c9040422c1b95c3a6acb6fbd
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: gameManager
@@ -808,6 +1079,12 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
+      Hash: 0ed4be8fd4b42a8abb0d805423780f2e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: End_score
+  - hash:
+      serializedVersion: 2
       Hash: ef38c1407dba8c1f5d69f5db61a694fe
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -994,7 +1271,7 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
-      Hash: 3cf3f6ec410b7e11e0b6bc19561abcf8
+      Hash: 25126cbcce8d576b12d7eb59ee18c7d5
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Player_movecontroller
@@ -1114,5 +1391,9 @@ ScriptsOnlyBuild:
     className: Image
   platform: 13
   scenePathNames:
+  - Assets/Scenes/Title.unity
   - Assets/Scenes/Shin.unity
-  playerPath: C:/Users/jun00/Downloads/wwwww.apk
+  - Assets/Scenes/End.unity
+  - Assets/Scenes/Score.unity
+  - Assets/Scenes/Main.unity
+  playerPath: C:/Users/jun00/Downloads/realfinla.apk

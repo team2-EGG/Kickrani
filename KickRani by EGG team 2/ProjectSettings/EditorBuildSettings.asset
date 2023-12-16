@@ -6,20 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Shin.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
     path: Assets/Scenes/Title.unity
     guid: 91f34b979a0cc4d44943aca51f5a3b5f
+  - enabled: 1
+    path: Assets/Scenes/Shin.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/End.unity
     guid: e1765df298b8b0643887d6187553a7c7
   - enabled: 1
-    path: Assets/Scenes/Main.unity
-    guid: 3ec56d20073f70249a2148c4d4a53024
-  - enabled: 1
     path: Assets/Scenes/Score.unity
     guid: c5ca6c9b362a6fc49bd98787a7137012
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 3ec56d20073f70249a2148c4d4a53024
   - enabled: 0
     path: Assets/Scenes/walking_man/walking_man.unity
     guid: e2106f23311309345b1cb7b83d2b473b
